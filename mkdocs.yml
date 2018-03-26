@@ -1,0 +1,29 @@
+site_name: RV Security
+site_author: Mark Kroh
+site_description: "A general security training program for Red Ventures"
+repo_url: ""
+copyright: "&copy; 2018 Red Ventures"
+
+theme:
+    name:
+    custom_dir: cinder
+
+extra_css:
+    - assets/css/extra.css
+    - assets/css/slides.css
+    - assets/css/training.css
+
+extra_javascript:
+    - assets/js/jquery-1.10.2.min.js
+    - assets/js/lazy_load_images.js
+
+pages:
+    - Home: for_everyone/index.md
+    - Social: for_everyone/social-engineering.md
+    - Passwords: for_everyone/passwords.md
+    - Physical: for_everyone/physical-security.md
+    - Wireless: for_everyone/wireless-security.md
+    - Data: for_everyone/data-handling.md
+    - Compliance: for_everyone/compliance.md
+    - Conclusion: for_everyone/conclusion.md
+
