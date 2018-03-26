@@ -5,7 +5,7 @@ repo_url: ""
 copyright: "&copy; 2018 Red Ventures"
 
 theme:
-    name:
+    name: readthedocs
     custom_dir: cinder
 
 extra_css:
@@ -16,6 +16,7 @@ extra_css:
 extra_javascript:
     - assets/js/jquery-1.10.2.min.js
     - assets/js/lazy_load_images.js
+    - assets/js/require.js
 
 pages:
     - Home: for_everyone/index.md
