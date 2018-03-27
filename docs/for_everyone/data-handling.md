@@ -68,26 +68,7 @@ _124. Data handling._
 
 How we handle data depends on what type of data it is. For example, general data does not need to be encrypted, as it's considered public. All other types of data should always be encrypted in transit and at rest however.
 
-You can view a more detailed description of our data handling policies on the wiki.
-
-> Note: When originally presented, this slide contained links to our internal wiki with more detailed information. Those internal links have been removed from the public version.
-
----
-
-### Wiki Page Classifications
-
-<input type="checkbox" id="125" /><label for="125">![125](../slides/for_everyone/for_everyone.125.jpeg)</label>
-_125. Wiki page classifications.._
-
-Speaking of the wiki, you will notice that every link in the security wiki has a coloured label next to it which identifies which classification that particular link or file is subject to, and how it can disseminated.
-
-* *Public* can be shared with anyone.
-* *Restricted* is only to be shared with customers who are under an NDA.
-* *Internal only* are not to be shared with anyone outside of Red Ventures.
-
-If any link does not have a classification, it is to always be considered internal only.
-
-You'll also notice that these classifications exactly match the ones used for these slides!
+You can view a more detailed description of our data handling policies in our written policies. To request a copy of this, please contact our security team.
 
 ---
 
@@ -104,7 +85,7 @@ This does not mean you can't check your email from your phone. Any website or ho
 
 If you're unsure what counts as a hosted platform, just ask us!
 
-This is also why it's important for you to let us know if your personal device is lost or stolen, so we can lock it out from all our services.
+This is also why it's important for you to let us know if your personal device is lost or stolen, so we can lock it out from all of our services.
 
 ---
 
@@ -115,7 +96,7 @@ _125. No customer data on Red Ventures devices._
 
 Likewise, you should never store customer data, even on Red Ventures devices! Customer data is never to leave our production environment under any circumstances.
 
-That means you do not download parts of our production database to your Red Ventures laptops, you do not transfer real production data to our staging or sandbox environments to run some tests, etc. Our production environment has strict security controls and audit logging in place. If you transfer data away from those environments, we  lose those abilities.
+That means you do not download parts of our production database to your Red Ventures laptops, you do not transfer real production data to our staging or sandbox environments to run some tests, etc. Our production environment has strict security controls and audit logging in place. If you transfer data away from those environments, we lose those abilities.
 
 We have analytics mechanisms available to you in our production environment to run these types of things. If you need something different or special set up for a specific project, please let us know and we're more than happy to guide and help you set that up.
 

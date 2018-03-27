@@ -41,9 +41,9 @@ We are mostly considered a "Data Processor" under GDPR, rather than a Data Contr
 
 We'll need to include extra steps in our development processes to include data protection from the onset of the designing our systems, rather than something that's added on later.
 
-Data portability is the right for a data subject (i.e. our users) to receive the personal data we have stored which concerns them. We need to provide this in a "commonly used and machine readable format". The user also has the right to transmit that data to another controller. Our current API satisfies this constraint, since it allows users to retrieve all the information we have on them, and they can export it and send it to another provider as they see fit.
+Data portability is the right for a data subject (i.e. our users) to receive the personal data we have stored which concerns them. We need to provide this in a "commonly used and machine readable format". The user also has the right to transmit that data to another controller.
 
-Another thing GDPR requires is the "Right to be Forgotten", also known as Data Erasure, this entitles the data subject to have the data controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data. We already allow customers to purge their information from Red Ventures on request, so again, we already satisfy this constraint.
+Another thing GDPR requires is the "Right to be Forgotten", also known as Data Erasure, this entitles the data subject to have the data controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.
 
 One very important part is that we have to specify the intended purpose of all personal data we will process, and cannot use that data for any other purpose. For example, if we specify the intended purpose of collecting email addresses is to send Red Ventures notifications, we cannot then use that email address to send the user marketing material.
 
@@ -68,4 +68,4 @@ The bottom line is that GDPR is going to lead to a lot of interesting situations
 _133-135. Redacted slides._
 
 <span class="redacted">Redacted</span>
-> A series of slides here went into detail on our other compliance initiatives. These initiatives are still being worked on and so we're unable to share the information publicly.
+> What other compliance info do we need here? We probably want to add a section on HIPAA. Anything else?
