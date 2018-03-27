@@ -3,5 +3,8 @@ Examples of phishing emails for the social-engineering section. I asked Patty fo
 
 Do we have a phishing archive? If so, we could do a screen shot of this. Otherwise, delete this slide (#38) from the presentation
 
+Add LastPass to the passwords section 83
 
 Replace slide 40, 41, 42
+
+slide 118 lost laptop procedure
