@@ -9,7 +9,7 @@ description: This is an open-source version of 'Security Training for Everyone',
 _<input type="checkbox" id="047" /><label for="047">![047](../slides/for_everyone/for_everyone.047.jpeg)</label>_
 _047. Passwords._
 
-It's time for our next topic, everyone's favourite, Passwords.
+It's time for our next topic, everyone's favorite, Passwords.
 
 ---
 
@@ -27,7 +27,7 @@ Hopefully you all know what a password is, but just in case you don't, here's a 
 <input type="checkbox" id="049" /><label for="049">![049](../slides/for_everyone/for_everyone.049.jpeg)</label>
 _049. T3h 1337 Haxx0rs!!!111one!_
 
-Rather than just give you a list of rules for how to pick good passwords, I want to try something a bit different here. I'm going to teach you all how to be hackers, just like in the movies. I'm going to teach you how to crack passwords. Don't worry, I see some wide eyes in the audience, I'm going to keep this as untechnical as I can.
+Rather than just give you a list of rules for how to pick good passwords, I want to try something a bit different here. I'm going to teach you all how to be hackers, just like in the movies. I'm going to teach you how to crack passwords. Don't worry, I see some wide eyes in the audience, I'm going to keep this as non-technical as I can.
 
 I do need to talk about one technical concept first though...
 
@@ -78,7 +78,7 @@ _054. Irreversible._
 
 The second is that it's irreversible. If you only have the magic string, there's no amount of fancy mathematics or algorithms that can get you back to the password.
 
-The only way you know that that password goes to that magic string, is if you already knew that that passwords goes to that magic string.
+The only way you'd know that a password correlates to that magic string is if you had some sort of table that stored both passwords and magic strings together and you could see them together.
 
 ---
 
@@ -89,7 +89,7 @@ _055. Creating an account._
 
 So why am I telling you this? Well, it may surprise you to know that websites don't actually store your password (at least, they shouldn't). When you create an account on a website, they do this "magic" to your password, and store the result in their database instead of your password.
 
-Why do they do this? Well, there's always at least one employee who can see the values stored in the database. If they were to store the real passwords, anyone with access to the database could have them, and not everyone is honest.
+Why do they do this? Well, there's always at least one employee who can see the values stored in the database. If they were to store the real passwords, anyone with access to the database could have them, and not everyone is honest. Well, everyone here is but it's still bad practice.
 
 ---
 
@@ -98,7 +98,7 @@ Why do they do this? Well, there's always at least one employee who can see the 
 <input type="checkbox" id="056" /><label for="056">![056](../slides/for_everyone/for_everyone.056.jpeg)</label>
 _056. Logging in to an account._
 
-But if they've only stored the magic string, how do you login to websites? Well, they do the same thing again. They perform the magic on whatever you enter, and get the result.
+But if they've only stored the magic string, how do you login to websites? Well, when you enter your password, they do the same process again that created the hash in the first place. They perform the magic on whatever you enter, and get the result.
 
 ---
 
@@ -107,7 +107,7 @@ But if they've only stored the magic string, how do you login to websites? Well,
 <input type="checkbox" id="057" /><label for="057">![057](../slides/for_everyone/for_everyone.057.jpeg)</label>
 _057. Did you enter the same thing?_
 
-If the result matches what's in their database, then they know it's you and the login succeeds.
+If the result matches what's in the database, then they know it's you and the login succeeds.
 
 Websites don't really care about your password. They only care that you entered the same thing you did when you registered. So there's no need to store your actual password, they can just store a representation of it, safe in the knowledge that no one can reverse it back to a password.
 
@@ -120,7 +120,7 @@ Except that's what we're going to do now...
 <input type="checkbox" id="058" /><label for="058">![058](../slides/for_everyone/for_everyone.058.jpeg)</label>
 _058. EvilCorp customer database._
 
-Last night I went ahead and stole a customer database. Doesn't matter where I got it from. For all you know this could be the Red Ventures customer database, after all I'm an engineer who has access to that, aren't I? (It's not, but if that scared you for a moment, then you should familiarize yourself with our access control policies).
+Last night I went ahead and stole a customer database. Doesn't matter where I got it from. For all you know this could be the Verizon customer database, after all I'm an engineer who has access to that, aren't I? (It's not, but if that scared you for a moment, then you should familiarize yourself with our access control policies).
 
 This stolen database contains usernames, password hashes (that's the magic string), and a password hint. Some of you may be thinking that the password hint is cheating here. Websites don't store password hints, right? Well, some do. But you're right, most don't. So you can think of them as "Answers to Security Questions" if it makes you feel better (I'll talk more about security questions later).
 
@@ -133,7 +133,7 @@ We're now going to get the passwords for all of these users.
 <input type="checkbox" id="059" /><label for="059">![059](../slides/for_everyone/for_everyone.059.jpeg)</label>
 _059. pumpkin22._
 
-The first thing you might notice, is that sometimes the username itself can give things away. Let's take a look at this user first. "pumpkin22", and their password hint is "fav holiday". Hrm... pumpkins, holiday. I think I have a pretty good idea of what their password is.
+The first thing you might notice, is that sometimes the username itself can give things away. Let's take a look at this user first. "pumpkin22", and their password hint is "fav holiday". Hmmm... pumpkins, holiday. I think I have a pretty good idea of what their password is.
 
 But remember when I told you about the two important properties of the "magic", the first was that given the same password, you always get the same magic string. So we actually have more information to help us here.
 
@@ -148,7 +148,7 @@ We can see that this user "arup" has exactly the same password as "pumpkin22".
 
 > This isn't always the case, there's something called "Hash Collision" which can occur. But I'm ignoring that here in order to keep things simple.
 
-So now we can use "arup"'s password hint as an extra bit of information. So, "pumpkin", "holiday", "scary movie". Hopefully by now you've guessed that this password is `halloween`.
+So now we can use "arup"'s password hint as an extra bit of information. So, "pumpkin", "holiday", "scary movie". Hopefully, by now you've guessed that this password is `halloween`.
 
 ---
 
@@ -157,7 +157,7 @@ So now we can use "arup"'s password hint as an extra bit of information. So, "pu
 <input type="checkbox" id="061" /><label for="061">![061](../slides/for_everyone/for_everyone.061.jpeg)</label>
 _061. halloween._
 
-So there we are, we just broke a 9 character password in less than a minute, without writing any code. Pretty cool, right?
+So there we are, we just broke a 9-character password in less than a minute, without writing any code. Pretty cool, right?
 
 Let's try another one.
 
@@ -168,7 +168,7 @@ Let's try another one.
 <input type="checkbox" id="062" /><label for="062">![062](../slides/for_everyone/for_everyone.062.jpeg)</label>
 _062. rich._
 
-Let's look at the user "rich". Their password hint is "fav person". Well, that's not really much help to us. We don't know who "rich" is, and we have no idea who their favourite person is. In fact, that user probably thinks they're pretty safe, since only close friends would know the necessary information. There's no way a random attacker looking at the database could figure it out.
+Let's look at the user "rich". Their password hint is "fav person". Well, that's not really much help to us. We don't know who "rich" is, and we have no idea who their favorite person is. In fact, that user probably thinks they're pretty safe, since only close friends would know the necessary information. There's no way a random attacker looking at the database could figure it out.
 
 Unfortunately for them, another user has picked the same password.
 
@@ -179,7 +179,7 @@ Unfortunately for them, another user has picked the same password.
 <input type="checkbox" id="063" /><label for="063">![063](../slides/for_everyone/for_everyone.063.jpeg)</label>
 _063. james._
 
-The user "james" has picked the same password, and has a much more obvious password hint. We can use this information to break the password for both users. Hopefully you can figure out that the password in this case is `queen`.
+The user "james" has picked the same password, and has a much more obvious password hint. We can use this information to break the password for both users. Hopefully, you can figure out that the password in this case is `queen`.
 
 ---
 
@@ -309,7 +309,7 @@ _075. gLCbYt9MX._
 
 There's mixture of cases, it's 9 characters long, there are numbers in it, it's not a real word. The only thing really missing are special characters. I would wager that a lot of you might use worse passwords than this for a lot of things, and thought your passwords were safe. How do you feel about that now?
 
-I'm not showing you all this to scare you. Well, I guess I am a bit. But I should apologise, because I've actually let you all astray ever so slightly. The type of attack I just showed, using "Magic Lists", is not too hard to defend against.
+I'm not showing you all this to scare you. Well, I guess I am a bit. But I should apologize, because I've actually let you all astray ever so slightly. The type of attack I just showed, using "Magic Lists", is not too hard to defend against.
 
 ---
 
@@ -318,9 +318,9 @@ I'm not showing you all this to scare you. Well, I guess I am a bit. But I shoul
 <input type="checkbox" id="076" /><label for="076">![076](../slides/for_everyone/for_everyone.076.jpeg)</label>
 _076. Salting._
 
-There's a technique called "salting" which can stop this type of attack from working. You don't need to know what it is, just that it works, and it's been around since at least the 1970's, probably earlier. (Another one of my favourite stock images by the way).
+There's a technique called "salting" which can stop this type of attack from working. You don't need to know what it is, just that it works, and it's been around since at least the 1970s, probably earlier. (Another one of my favorite stock images by the way).
 
-So great, this technique has existed forever, and stops this attack. So we're safe? No one would ever not use this "salting" stuff on their modern website.
+So great, this technique has existed forever, and stops this attack. So, we're safe? No one would ever not use this "salting" stuff on their modern website.
 
 ---
 
@@ -335,8 +335,6 @@ These others here used something called "MD5", that's just the name of the "Magi
 
 Hell, even Yahoo used MD5, they had it in their FAQ for the recent breach. They didn't specify if it was salted or not, which means it probably wasn't.
 
-If you're interested in the correct way to store passwords, come along to our next training session for engineers where I'll go into this in a lot more detail.
-
 ---
 
 ### What happens when passwords are leaked?
@@ -348,7 +346,7 @@ So what happens when these passwords leaks take place? Generally, once an attack
 
 Most people reuse their email and password combinations for other things. So the attacker will start logging into all the other accounts they can, whether it's to steal information, or money. This can all be done _very_ quickly after a database is stolen.
 
-It's usually months before the breach is known, by which point it's already too late.
+It's usually months before the breach is known, by which point it's already too late. Chances are that your account passwords have been stolen. You can check using this website maintained by security guru Troy Hunt: [haveibeenpwned.com](https://haveibeenpwned.com/).
 
 The point I'm trying to make is that you can't control another website's security. You have absolutely no control over how another website stores your password or protects their database. So you need to protect yourself instead.
 
@@ -385,13 +383,13 @@ Current Department of Defense standards recommend 15 or more characters for your
 <input type="checkbox" id="081" /><label for="081">![081](../slides/for_everyone/for_everyone.081.jpeg)</label>
 _081. Random._
 
-Next, your passwords also need to be random. I've said here not to use dictionary words, but "dictionary" is in quotes. I don't just mean the English dictionary. There are things called password dictionaries too. Remember a few slides ago, I showed you some email and password combinations that had been broken. When big websites get breached, the broken passwords get added to a password list and sorted by popularity. These can then be used to brute force (i.e. try every possibility until it works) other people's accounts.
+Next, your passwords also need to be random. I've said here not to use dictionary words, but "dictionary" is in quotes. I don't just mean the English dictionary. There are things called password dictionaries, too. Remember a few slides ago, I showed you some email and password combinations that had been broken. When big websites get breached, the broken passwords get added to a password list and sorted by popularity. These can then be used to brute force (i.e. try every possibility until it works) other people's accounts.
 
 So while words like `letmein` aren't in the English dictionary, they will be near the top of any password dictionary. It's just as important not to use these kinds of words.
 
-You need to make them completely random, and humans are very bad at random. Even mashing your keyboard you're probably alternating your right and left hands, meaning there's patterns that can be implied. Computers are the thing that's going to be breaking your passwords, so a computer should be the one generating it too.
+You need to make them completely random, and humans are very bad at random. Even mashing your keyboard you're probably alternating your right and left hands, meaning there's patterns that can be implied. Computers are the things that are going to be breaking your passwords, so a computer should be the one generating it, too.
 
-Finally, not all websites let you make completely random passwords unfortunately. Some of them won't let you use certain characters, because of the way their systems work (this is usually an indication they're not storing passwords properly). You need to work within these restrictions, but use as many of the other available characters as you can in your passwords.
+Unfortunately, not all websites let you make completely random passwords. Some of them won't let you use certain characters, because of the way their systems work (this is usually an indication they're not storing passwords properly). You need to work within these restrictions, but use as many of the other available characters as you can in your passwords.
 
 ---
 
@@ -400,7 +398,7 @@ Finally, not all websites let you make completely random passwords unfortunately
 <input type="checkbox" id="082" /><label for="082">![082](../slides/for_everyone/for_everyone.082.jpeg)</label>
 _082. Unique._
 
-Your passwords should be completely unique. Every single account you have should get it's own password, and you shouldn't follow patterns. I see advice sometimes where you just pick one password, then append the name of the website to it, that way you get a different password everywhere. This is bad advice, please don't follow it. Firstly, if I break one of your passwords, it's trivial to figure out your pattern, and secondly if you ever need to rotate your password on one site, you're going to have a bad time.
+Your passwords should be completely unique. Every single account you have should get it's own password, and you shouldn't follow patterns. I see advice sometimes where you just pick one password, then append the name of the website to it, that way you get a different password everywhere. This is bad advice, please don't follow it. First, if I break one of your passwords, it's trivial to figure out your pattern, and second if you ever need to rotate your password on one site, you're going to have a bad time.
 
 You can't assume anything about how a website stores your password. For all you know they could be storing the password directly (we call this "in the clear", or "in plaintext"). So you need to use a completely unique password for every single login. Anywhere you use the same password becomes vulnerable as soon as one of those sites gets breached. And remember, you may not know about a breach until years later.
 
@@ -439,7 +437,7 @@ Hopefully it's all clear to you why `password` is a really bad password to use. 
 
 The next one is better, `P&sSw0~d`, we've got special characters in there now, and not some standard replacements. But the password is only 8 characters long, and as we learned earlier, that's too short.
 
-What about `I Like Rainbows!`. This is going to be much harder to break, but there are password cracking tools specifically designed for sentence based passwords. You can treat each word here like an individual "token", and it becomes similar to a 4 character password (albeit with a _much_ larger alphabet). This will certainly take longer than the others to break, but it can be broken much quicker than you probably realise.
+What about `I Like Rainbows!`. This is going to be much harder to break, but there are password cracking tools specifically designed for sentence based passwords. You can treat each word here like an individual "token", and it becomes similar to a 4 character password (albeit with a _much_ larger alphabet). This will certainly take longer than the others to break, but it can be broken much quicker than you probably realize.
 
 And finally, `CorrectHorseBatterStaple`. This was featured in an [XKCD webcomic](https://xkcd.com/936/) a while back as a method for choosing good passwords. Unfortunately, it's not a great password. Mainly because it's already been featured in the comic and is public information. But this is another known technique, and there are tools that can break passwords which are composed of normal words like this. It will take much longer to break, don't get me wrong, but there are much better passwords you can use.
 
@@ -489,7 +487,7 @@ _089. Use a password manager. [Reference](https://1password.com/)_
 
 You need to use a tool called a "Password Manager". There are lots out there, and you've probably heard of a lot of them. "[LastPass](https://www.lastpass.com/)", "[1Password](https://1password.com/)", "[KeePass](https://keepass.info/)", etc. They each have their own pros and cons depending on how you prefer to operate. Most have browser plugins to automatically enter your passwords for you (although there have been some security issues there in the past). But they're all designed to do pretty much one thing. Store a lookup of all your usernames and passwords, protected by a single "master password", which is the one password (hey, that's the name of one of the tools) you need to remember. The idea is that it'll be the last password (hey, that's the name of another one!) you need to remember.
 
-We use 1Password here at Red Ventures, so if you can't decide on a tool, then you may as well go with that one. One quick thing to note, make sure to use a different tool or vault for your personal vs work passwords. We revoke access to the Red Ventures ones when you leave, so you don't want all your personal ones to disappear too!
+We use LastPass here at Red Ventures, so if you can't decide on a tool, then you may as well go with that one. One quick thing to note, make sure to use a different tool or vault for your personal vs work passwords. We revoke access to the Red Ventures ones when you leave, so you don't want all your personal ones to disappear too!
 
 If there's only one thing you take away from today's training, please make it this: Using a password manager is the single most effective thing you can do to enhance your security online. Actually, maybe two-factor authentication too, we'll get to that later though.
 
@@ -504,7 +502,7 @@ _090. Password managers._
 
 Password managers are designed to remember all of your passwords for you, in a secure way. They can also generate completely random passwords for you, and you can typically change the criteria associated with this generation. So if a website doesn't let you use special symbols, you can exclude those and still get a strong password.
 
-> Rich's "Fun" Tidbit: One of the (many) password restrictions on The US Citizenship and Immigration Service website is "Your Password cannot contain the dollar ($) sign". I always thought that seemed a little ironic.
+> Mark's "Fun" Tidbit: One of the (many) password restrictions on The US Citizenship and Immigration Service website is "Your Password cannot contain the dollar ($) sign". I always thought that seemed a little ironic.
 
 But the most important feature of password managers is that they let you use a completely different password for everything, without having to worry about remembering it yourself.
 
@@ -665,7 +663,7 @@ _104. Two-Factor._
 
 The idea of two-factor authentication is that you pick two of these factors, and require them in order to authenticate a user. While an attacker might be able to remotely steal your password, it's pretty unlikely they'd also be able to physically steal your phone or get a fingerprint. Likewise, if an attacker can physically steal your phone, it's unlikely they'd also be able to get your password.
 
-As you can probably now understand, the United Airlines authentication I showed earlier is not two-factor authentication, as security question answers are the same as you passsword, they're both "Something you know".
+As you can probably now understand, the United Airlines authentication I showed earlier is not two-factor authentication, as security question answers are the same as your password, they're both "Something you know".
 
 In order for two-factor authentication to be most effective, it's important not to store the two-factor codes with your passwords. This goes back to that security vs convenience trade-off I talked about at the start. It's very convenient to have them in the same place, but then if an attacker gets one, it means they get the other too.
 
@@ -675,23 +673,12 @@ This all applies to backup codes too. Typically you should just print those off 
 
 ---
 
-### Yubikeys
-
-<input type="checkbox" id="105" /><label for="105">![105](../slides/for_everyone/for_everyone.105.jpeg)</label>
-_105. Yubikeys._
-
-We use Yubikeys for the most part, they're a little USB device with a touch sensitive contact on one side. You just plug it in and touch the button to verify the "something you have" factor. The majority of folks find this to be the most convenient two-factor method we offer, although you're welcome to use any of the other two-factor methods available to you if you prefer those. The only one we don't allow is SMS, since there are some security issues with it. But if you prefer to use the 6 digit codes from Google Authenticator, you're more than welcome to use those.
-
-All Red Ventures issued Yubikeys are yours to keep, so you can feel free to use them for personal accounts if you like (Google, Facebook, Dropbox, etc). If you have a personal Yubikey already, we're also more than happy to register it in our system so you can use it for your Red Ventures accounts, it may require us to reprogram it and lose some of your existing configuration though. We can work with you to limit the impact.
-
----
-
 ### Use Two-Factor Authentication
 
 <input type="checkbox" id="106" /><label for="106">![106](../slides/for_everyone/for_everyone.106.jpeg)</label>
 _106. Use two-factor authentication._
 
-The big takeaway from all this, is to make sure you use two-factor authentication wherever it's available. All Red Ventures systems enforce two-factor authentication, so you should already be used to it here. But you should use it for all your personal stuff too. GMail, Facebook, Dropbox, GitHub, Amazon, etc. They all have two-factor authentication options available.
+The big takeaway from all this, is to make sure you use two-factor authentication wherever it's available. Some Red Ventures systems enforce two-factor authentication, so you may already be used to it here. But you should use it for all your personal stuff too. GMail, Facebook, Dropbox, GitHub, Amazon, etc. They all have two-factor authentication options available.
 
 ---
 

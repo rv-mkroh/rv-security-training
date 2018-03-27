@@ -18,7 +18,7 @@ These next two sections will go much quicker, I promise. We're now going to talk
 <input type="checkbox" id="108" /><label for="108">![108](../slides/for_everyone/for_everyone.108.jpeg)</label>
 _108. What is physical security?_
 
-I mean security that's designed to protect our office, personnel, and equipment.
+I mean security that's designed to protect our offices, personnel, and equipment.
 
 ---
 
@@ -42,7 +42,7 @@ _110. Ask Questions._
 
 If you see something suspicious, ask questions. But be polite, don't shove someone up against the wall shouting "Who do you work for!!?!?!", this isn't a movie. If someone is wandering around looking lost, ask them where they're heading. It's likely just a new employee.
 
-If someone you don't recognize is sitting at your friends desk using their laptop though, that's something you probably want to let the security team know about pretty quickly. Speaking of which...
+If someone you don't recognize is sitting at your friend's desk using their laptop though, that's something you probably want to let the security team know about pretty quickly. Speaking of which...
 
 ---
 
@@ -51,7 +51,7 @@ If someone you don't recognize is sitting at your friends desk using their lapto
 <input type="checkbox" id="111" /><label for="111">![111](../slides/for_everyone/for_everyone.111.jpeg)</label>
 _111. Lock Your Computers!._
 
-Please lock your computers when you're not with them. It literally only takes a few seconds for someone to plug in a USB stick and they've now loaded malware on to your machine.
+Please lock your computers when you're not with them. It literally only takes a few seconds for someone to access your machine and do some really nasty things using your login credentials.
 
 If you wander around the office and see someone else's computer unlocked, please lock it for them, then send them a private message on Slack letting them know it was unlocked and that you locked it. Resist the urge to troll the user by changing their background or typing as them on Slack. That's not the kind of environment we're trying to foster.
 
@@ -66,22 +66,9 @@ _112. Piggybacking._
 
 Beware of "Piggybacking", this is where someone else follows you through a secure door on your keycard swipe. A common social engineering trick is to just act like you belong and follow people through a door they've opened for you. Usually carrying something heavy with both hands to explain why they can't swipe their own keycard.
 
-Always verify other people coming in on your keycard. If they're co-workers you recognise, then of course let them in. But if you don't recognise them, ask them to tap their own keycard too. Then introduce yourself, and make a new friend, since it's a coworker you'd not met yet.
+Always verify other people coming in on your keycard. If they're co-workers you recognize, then of course let them in. But if you don't recognize them, ask them to tap their own keycard too. Then introduce yourself, and make a new friend, since it's a coworker you'd not met yet.
 
 Likewise, if you're following someone through a door and they ask you to tap your keycard, please don't give them any grief. Tap your keycard, and then introduce yourself and make a friend.
-
----
-
-### Building Keycards
-
-<input type="checkbox" id="113" /><label for="113">![113](../slides/for_everyone/for_everyone.113.jpeg)</label>
-_113. Building Keycards._
-
-Speaking of keycards, please keep them with you at all times. Don't leave them at your desks. You've no doubt noticed that keycards are required on all doors that access the building.
-
-As we grow as a company, we're probably going to need to start putting photos on the keycards too. Although I personally question the effectiveness of that, since most people don't look at name badges anyway. Also we want to make sure not to put the company name on the keycard, otherwise it gives away where the keycard can be used when it gets lost. It'd be like putting your home address on your house key.
-
-I started a hackday a while back to make our keycards nicer, but never followed through. Who knows what they'll eventually look like.
 
 ---
 
@@ -92,7 +79,7 @@ _114. Building Security._
 
 Once you've used your keycard to unlock a door, please don't prop it open. The doors are locked for a reason, and propping them open kind of defeats that. Listen for the sound of the door closing behind you.
 
-Make sure all your visitors sign in at the front desk, and have a name badge. Not only is this good security practice, but it's required for fire safety too, so we know how many people are in the building should we need to evacuate.
+Make sure all your visitors sign in at the front desk, and have a name badge. Not only is this good (required) security practice, but it's required for fire safety too, so we know how many people are in the building should we need to evacuate.
 
 ---
 
@@ -132,9 +119,9 @@ _(Unless you stole the laptop yourself, in which case, yeah.. you'll probably ge
 <input type="checkbox" id="118" /><label for="118">![118](../slides/for_everyone/for_everyone.118.jpeg)</label>
 _118. Page us!._
 
-Page security or helpdesk at any time if you have lost or had stolen, any devices that access Red Ventures information. Whether it's your Red Ventures issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued.
+Notify security or the help desk at any time if you have lost or had stolen, any devices that access Red Ventures information. Whether it's your Red Ventures issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued.
 
-This is a high-urgency pageable situation. So if you spot your stolen device at 2am, you page us at 2am. Don't wait until business hours. We always have someone on-call who will respond to these pages and take the necessary action.
+This is a high-urgency situation. So if you spot your stolen device at 2am, you notify us at 2am. Don't wait until business hours. We always have someone on-call who will respond to these pages and take the necessary action.
 
 If you don't know how to page us via Red Ventures, please come and talk to us as soon as you can so we can show you. Hopefully you've all at least used our product once, but some of you are pretty new and probably haven't had the chance yet, that's OK.
 

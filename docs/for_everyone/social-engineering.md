@@ -7,7 +7,7 @@ description: This is an open-source version of 'Security Training for Everyone',
 
 _<input type="checkbox" id="017" /><label for="017">![017](../slides/for_everyone/for_everyone.017.jpeg)</label>_
 
-Social Engineering is our first topic of the day, and that stock image is quite possibly my favourite ever. Seriously, why wear a balaclava while on the phone? It makes no sense!
+Social Engineering is our first topic of the day, and that stock image is quite possibly my favorite ever. Seriously, why wear a balaclava while on the phone? It makes no sense!
 
 ---
 
@@ -34,7 +34,7 @@ If you've ever seen the movie ["Catch Me If You Can"](https://www.imdb.com/title
 <input type="checkbox" id="020" /><label for="020">![020](../slides/for_everyone/for_everyone.020.jpeg)</label>
 _020. Building Trust._
 
-Social engineering is mostly about building trust. If I wanted to social engineer the CEO of Red Ventures, Jenn would not be my first phone call. I'd start by calling a low-level employee claiming to be a new employee needing help, or I'd call a new employee and claim to be an established employee asking for help. I'd learn some little bits of information, maybe a bit of internal lingo that's being used. Then the next person I call would be slightly higher up the chain, I'd use the information I learned on the first call to sound more credible. And so on and so on.
+Social engineering is mostly about building trust. If I wanted to social engineer the CEO of Red Ventures, Ric would not be my first phone call. I'd start by calling a low-level employee claiming to be a new employee needing help, or I'd call a new employee and claim to be an established employee asking for help. I'd learn some little bits of information, maybe a bit of internal lingo that's being used. Then the next person I call would be slightly higher up the chain, I'd use the information I learned on the first call to sound more credible. And so on and so on.
 
 By the time I call the CEO, I'd have so much internal knowledge and language for the company that it would sound like I was an employee anyway.
 
@@ -47,8 +47,8 @@ This is hard to defend against, since human nature is to want to help others. So
 <input type="checkbox" id="021" /><label for="021">![021](../slides/redacted.jpeg)</label>
 _021. Redacted slide._
 
-<span class="redacted">Redacted</span>
-> This slide gave information on our internal employee directory and how to use it to verify who you're speaking to.
+
+Another way to verify if someone works here is to check the [Employee Search](https://intranet.redventures.net/admin/hr/employee_search.php) on the Red Ventures' intranet. A bonus of doing this is seeing some of the truly horrific first-day mug shots we take!
 
 ---
 
@@ -57,7 +57,7 @@ _021. Redacted slide._
 _<input type="checkbox" id="022" /><label for="022">![022](../slides/for_everyone/for_everyone.022.jpeg)</label>_
 _022. ~~Fishing~~ Phishing._
 
-I'm going to focus on one particular type of social engineering attack that we get exposed to, phishing (with a P-H), and again, this is another one of my favourite stock images. The term comes from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. As we get larger as a company, we become more of a target for these types of attacks.
+I'm going to focus on one particular type of social engineering attack that we get exposed to, phishing (with a P-H), and again, this is another one of my favorite stock images. The term comes from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. As we get larger as a company, we become more of a target for these types of attacks.
 
 ---
 
@@ -116,9 +116,7 @@ _027. Real or Phish?._
 
 Sorry, I mean "Real or Phish?"
 
-> It's worth noting there were groans from the audience at this point.
-
-I'm going to show you some genuine emails that have been sent to Red Ventures employees (shared with the recipients permission of course), and it's your job to tell me if you think it's a real email, or a phishing attempt.
+I'm going to show you some genuine emails that have been sent to employees of another company (shared with the recipients permission of course), and it's your job to tell me if you think it's a real email, or a phishing attempt.
 
 ---
 
@@ -127,13 +125,11 @@ I'm going to show you some genuine emails that have been sent to Red Ventures em
 <input type="checkbox" id="028" /><label for="028">![028](../slides/for_everyone/for_everyone.028.jpeg)</label>
 _028. Your account has a debt and is past due._
 
-Let's start with this one, which was sent to a member of our SRE team.
+Let's start with this one.
 
 _"Our records show that your account has a debt of $436.{rand(10,100)}}. Previous attempts of collecting this sum have failed."_
 
 What do we think?
-
-> Audience shouts "Phishing!"... less enthusiastically than the presenter would have liked.
 
 ---
 
@@ -194,9 +190,7 @@ _032-036. Redacted slides._
 <input type="checkbox" id="037" /><label for="037">![037](../slides/for_everyone/for_everyone.037.jpeg)</label>
 _037. Spear phishing._
 
-These much more targeted attacks are called "[Spear Phishing](https://en.wikipedia.org/wiki/Phishing#Spear_phishing)". An attacker spent a lot of time learning about our internal org structure and crafting a legitimate looking email in order to try and get lots of money from us. These are the types of attacks we care the most about protecting against.
-
-If you're interested in more of the types of attacks we get, please take a look at our Phishing Archive.
+These much more targeted attacks are called "[Spear Phishing](https://en.wikipedia.org/wiki/Phishing#Spear_phishing)". An attacker spent a lot of time learning about our internal org structure and crafting a legitimate looking email in order to try and get lots of money from us. These are the types of attacks we care the most about protecting against. Ric recently spoke about an email he got that looked like it was a reply to him from our CFO and the only thing that tipped him off that it was a fake was a subtle difference in the way the "original" email was signed compared with how Ric normally signs. You really have to be on your game with these hacks!
 
 ---
 
@@ -217,13 +211,13 @@ _039. Protecting yourself._
 
 So how do we protect ourselves from this type of attack? Unfortunately there's no golden rule I can give you. It's up to us all to remain vigilant and watch for the signs of suspicious emails. Some things to take care with, the "from" address of email can easily be spoofed. There are technologies that can help to prevent this, but they're not implemented everywhere. So while a misspelled domain is a strong indicator of phishing, a real domain isn't a 100% indicator that it's genuine.
 
-It's like postal mail, you can put whatever you want as the return address, doesn't mean it really came from there. (In fact, this used to be an old scam, you could swap the return and mail-to address, mail it without postage, and the post office would return to the "sender". I would strongly advise against trying this though, since mail fraud is a federal offense here in the US).
+It's like postal mail, you can put whatever you want as the return address, doesn't mean it really came from there. (In fact, this used to be an old scam, you could swap the return and mail-to address, mail it without postage, and the post office would return to the "sender". I would strongly advise against trying this though, since mail fraud is a Federal offense here in the US).
 
 Don't forget that if you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc). Especially if money is involved!
 
 And if you suspect you've received a phishing attempt, send it on over to the security team so we can improve our filters (and add it to the Phishing Archive).
 
-Finally, remember to **never click on any links in a mail you think may be phishing**.
+Finally, remember to **never click on any links in a mail you think may be phishing**. Don't even do this to try to get more info about whether it might be phishing - sometimes that click is all that needs to happen for very bad things to happen.
 
 ---
 
@@ -232,7 +226,7 @@ Finally, remember to **never click on any links in a mail you think may be phish
 <input type="checkbox" id="040" /><label for="040">![040](../slides/for_everyone/for_everyone.040.jpeg)</label>
 _040. Reporting phishing._
 
-If you do need to report phishing to us, it helps if we have the entire email that was sent to you, including some things called "headers", which you don't normally get to see. So to report phishing to us, first select the menu in the top-right of your screen.
+As of January 2018, if you do need to report phishing to us, use the following process. Within the email message, a “Red Alert” link will be displayed. Ironically, this is blue. Once you get past the cognitive dissonance of this, simply click Report Phishing.
 
 ---
 
@@ -241,25 +235,20 @@ If you do need to report phishing to us, it helps if we have the entire email th
 <input type="checkbox" id="041" /><label for="041">![041](../slides/for_everyone/for_everyone.041.jpeg)</label>
 _041. Reporting phishing._
 
-Then click "Show Original".
+The email will be removed from your inbox and sent to the security team for review. The security team will notify the end user of the outcome within 72 hours, returning non-suspicious messages to the recipient.
+
+If the phishing message is part of a security-driven phishing test, you will receive instant feedback if the message is reported.
 
 ---
 
-### Reporting Phishing (3)
+### Reporting Spam
 
 <input type="checkbox" id="042" /><label for="042">![042](../slides/for_everyone/for_everyone.042.jpeg)</label>
-_042. Reporting phishing._
+_042. Reporting spam._
 
-This will show you a load of random looking text and lots of interesting technical information. All you care about is the big blue button at the top which says "Copy to clipboard". Click that, then close the page and go to start a new email.
+While we're on the topic of reporting phishing, just a quick note that you can do the same with spam. Spam is considered unsolicited bulk email or any email that is unwanted or unrequested by the recipient. These are mostly commercial advertising but may include chain letters, political mailings, etc.
 
----
-
-### Reporting Phishing (4)
-
-<input type="checkbox" id="043" /><label for="043">![043](../slides/for_everyone/for_everyone.043.jpeg)</label>
-_043. Reporting phishing._
-
-Paste from your clipboard into the new email, and send it on over to us. We'll take care of the rest and let you know if there's anything you need to worry about. This is all documented on the wiki too, so don't worry too much about remembering all those steps.
+You can report Spam in the MimeCast tab of Outlook if you are on a PC. The Spam you report could be the Spam blocked for the rest of Red Ventures. In addition, you can block senders from reaching your inbox in the future
 
 ---
 
@@ -277,17 +266,17 @@ We don't read your emails, and automatic filtering only gets us so far. It's up 
 <input type="checkbox" id="045" /><label for="045">![045](../slides/for_everyone/for_everyone.045.jpeg)</label>
 _045. Not just phishing. [Reference](https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms)_
 
-Social engineering isn't just about phishing, even though that's what I focussed on here. There are many more types of social engineering attacks we can face.
+Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
 
 For example, the meeting invite for this training said that there would be free cake and desserts served. Sorry to disappoint, but that was a lie, and is an example of "Baiting".
 
-Another type of social engineering is called "Pretexting", pretending to be someone else to get information. For example, let's say you're on sales and you receive a phone call: "Hi, this is Tim from [large customer], we're having trouble with our account. I need to speak to our account manager right now, this is urgent, we're losing $100,000's every minute here!", you'd probably say "Sure, let me put you in touch with [account manager for large customer]", and now you just gave away that [large customer] is a customer, to someone who hadn't verified who they are. Very easy to get tricked this way, but very hard to defend against without being confrontational.
+Another type of social engineering is called "Pretexting", pretending to be someone else to get information. For example, let's say you're on the Frontier team and you receive a phone call: "Hi, this is Tim from Frontier, we're having trouble with the website. I need to speak to our tech account manager right now, this is urgent, we're losing $100,000's every minute here!", you'd probably say "Sure, let me put you in touch with her!", and now you just gave away that Frontier is a customer, to someone who hadn't verified who they are. Very easy to get tricked this way, but very hard to defend against without being confrontational.
 
 One thing to beware of is a forced sense of urgency. In the above example, the attacker threw about the fact they were losing $100,000's every minute, in order to try and add urgency to the situation and force you to make rash decisions. I don't have a perfect way to solve this, just be vigilant, and report anything suspicious.
 
-Another trick social engineers like to pull is to force you into a particular communications channel. For example, if you receive an email claiming to be from an employee, but they say they're uncontactable by phone today and would rather you communicate via email. This is why it's important to verify via another channel if you're unsure.
+Another trick social engineers like to pull is to force you into a particular communications channel. For example, if you receive an email claiming to be from an employee, but they say they're out of office and can't be contacted by phone today and would rather you communicate via email. This is why it's important to verify via another channel if you're unsure.
 
-One final example of social engineering would be leaving a USB drive lying on the floor with a virus on it. People love to pick up free USB drives for some reason. Scatter them outside of the office and see if anyone plugs them in, getting you access to a corporate network. If you find a USB drive on the floor and it's not yours, please don't let it anywhere near your computer.
+One final example of social engineering would be leaving a USB drive lying on the floor with a virus on it. People love to pick up free USB drives for some reason. Scatter them outside of the office and see if anyone plugs them in, getting you access to a corporate network. If you find a USB drive on the floor and it's not yours, please don't let it anywhere near your computer. Yes, I know we've disabled the USB drives in most laptops, but still. Don't do it.
 
 ---
 
@@ -296,6 +285,6 @@ One final example of social engineering would be leaving a USB drive lying on th
 <input type="checkbox" id="046" /><label for="046">![046](../slides/for_everyone/for_everyone.046.jpeg)</label>
 _046. Ask us._
 
-As with anything security related, if you're not sure if you've encountered a social engineering attack, or if you're curious to know more, just ask us! We don't bite! (Well, not all of us).
+As with anything security related, if you're not sure if you've encountered a social engineering attack, or if you're curious to know more, just ask us!
 
 ---
