@@ -19,7 +19,7 @@ And that's it! All of the topics I had. I hope you all learned something useful,
 _137-139. Redacted slides._
 
 <span class="redacted">Redacted</span>
-> These slides gave an overview of how folks can reach the security team, and links to our internal wiki pages, Slack rooms, and details on when we run office hours.
+> What information resources do we have available for people? How do we want them to contact us? Do we have any security-related Slack channels, etc?
 
 ---
 
@@ -28,7 +28,7 @@ _137-139. Redacted slides._
 <input type="checkbox" id="140" /><label for="140">![140](../slides/for_everyone/for_everyone.140.jpeg)</label>
 _140. Llama._
 
-And for all of you waiting for the animal to go with the colour from the start, it's Llama. So you'll be getting a feedback survey in a few moments, just enter the colour from the start, and this animal, and that will "prove" that you attended the security training for this year.
+And for all of you waiting for the animal to go with the color from the start, it's Llama. So you'll be getting a feedback survey in a few moments, just enter the color from the start, and this animal, and that will "prove" that you attended the security training for this year.
 
 You'll also have a chance to provide feedback on the training, which will shape how we change it next year. I will assume any negative feedback about my jokes are all in jest.
 
@@ -41,7 +41,7 @@ _141. Questions?_
 
 So with that, I'll open it up to questions. Thanks very much!
 
-> If you have questions about this training material, feel free to ask me on Twitter, I'm [@r_adams](https://twitter.com/r_adams).
+> When this training is given in person, we'll have members of the security team on hand to answer questions.
 
 ---
 
