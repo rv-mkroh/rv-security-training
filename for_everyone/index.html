@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A general security training program for Red Ventures"> 
+    <meta name="author" content="Mark Kroh"> 
+    <link rel="shortcut icon" href="../img/favicon.ico">
+
+    <title>Home - RV Security</title>
+
+    <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../css/base.css" rel="stylesheet">
+    <link href="../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+
+
+    <link href="../assets/css/extra.css" rel="stylesheet">
+
+
+    <link href="../assets/css/slides.css" rel="stylesheet">
+
+
+    <link href="../assets/css/training.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="./">RV Security</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li class="active">
+                        <a href="./">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="social-engineering/">Social</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="passwords/">Passwords</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="physical-security/">Physical</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="wireless-security/">Wireless</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="data-handling/">Data</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="compliance/">Compliance</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="conclusion/">Conclusion</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li class="disabled">
+                        <a rel="next" >
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="social-engineering/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#introduction">Introduction</a></li>
+        <li class="first-level "><a href="#goal">Goal</a></li>
+        <li class="first-level "><a href="#testimonial">Testimonial</a></li>
+        <li class="first-level "><a href="#classification">Classification</a></li>
+        <li class="first-level "><a href="#classification-demo">Classification Demo</a></li>
+        <li class="first-level "><a href="#the-security-team">The Security Team</a></li>
+        <li class="first-level "><a href="#our-job">Our Job</a></li>
+        <li class="first-level "><a href="#tracking-attendance">Tracking Attendance</a></li>
+        <li class="first-level "><a href="#question">Question</a></li>
+        <li class="first-level "><a href="#security-vs-convenience">Security vs Convenience</a></li>
+        <li class="first-level "><a href="#be-secure-but-usable">Be Secure, But Usable</a></li>
+        <li class="first-level "><a href="#no-faking">No Faking</a></li>
+        <li class="first-level "><a href="#faking-is-the-path-to-the-dark-side">Faking is the Path to the Dark Side</a></li>
+        <li class="first-level "><a href="#security-theater">Security Theater</a></li>
+        <li class="first-level "><a href="#tsa-baggage-locks">TSA Baggage Locks</a></li>
+        <li class="first-level "><a href="#3d-print-tsa-master-keys">3D Print TSA Master Keys</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<p>The main topics covered in this training are,</p>
+<ol>
+<li><a href="./social-engineering/">Social Engineering</a> - Primarily phishing and how to detect and report such attacks.</li>
+<li><a href="./passwords/">Passwords</a> - A crash course in how passwords are cracked, and why it’s important to have strong passwords.</li>
+<li><a href="./physical-security/">Physical Security</a> - Guidelines for maintaining the security of our offices and equipment.</li>
+<li><a href="./wireless-security/">Wireless Security</a> - How to stay safe when connecting to wireless networks.</li>
+<li><a href="./data-handling/">Data Handling</a> - The different types of data we have and how to properly handle that data.</li>
+<li><a href="./compliance/">Compliance</a> - How compliance affects our day-to-day operations.</li>
+<li><a href="./conclusion/">Conclusion</a></li>
+</ol>
+<hr />
+<h3 id="introduction">Introduction</h3>
+<p><input type="checkbox" id="001" /><label for="001"><img alt="001" src="./../slides/for_everyone/for_everyone.001.jpeg" /></label>
+<em>001. "Security Training for Everyone, March 2018"</em></p>
+<p>It turns out that if you work with partners in the banking and health care industries that security is a thing. There are even rumors that security is vital to our existence as a company. No, really, I've heard that. And when you do security right that means security certifications and security certifications mean training and, well, that's where your day got changed.</p>
+<p>My name is Mark Kroh and I lead our technical L&amp;D programs. Welcome to the Red Ventures annual security awareness training! Over the next hour or so, we'll go over the most important things you'll need to know to help keep yourself, our data, and our future safe. We'll try to do this as painlessly as possible, so let's get started.</p>
+<hr />
+<h3 id="goal">Goal</h3>
+<p><input type="checkbox" id="002" /><label for="002"><img alt="002" src="./../slides/for_everyone/for_everyone.002.jpeg" /></label>
+<em>002. Goal of the training.</em></p>
+<p>Ok, we all understand that security certifications are important to the business. But our philosophy is that what is MORE important is doing things the right way because that is who we are at our core. We want to keep people's data safe. We want to have confidence that when our partners place their trust in us, we will deliver.</p>
+<p>The goal of today's training is to make sure that we can maintain and build partner trust by having a staff who is well training against the most common security threats that we face. It's not just about knowing what threats we're up against, it's about knowing how to protect us from those threats too.</p>
+<p>Despite our best efforts, the security team can't have eyes everywhere. We rely on all of you to help us to spot security issues and let us know about them.</p>
+<hr />
+<h3 id="testimonial">Testimonial</h3>
+<p><input type="checkbox" id="003" /><label for="003"><img alt="003" src="./../slides/for_everyone/for_everyone.003.jpeg" /></label>
+<em>003. Testimonial for the training.</em></p>
+<p>If this is your first year at Red Ventures, then this training will be new to you. Actually, even if you've been here since the founding in 2000 this training will be new to you because we've never done it before. However, moving forward, we'll be swinging around to this annually. Not the most thrilling prospect for many of you but we've really tried to make this as entertaining and enjoyable as possible, and it's my hope that you don't feel this is a waste of your time. The material I'm going to present should be useful no matter what skill level you already have. Whether you're just joining us as an intern, or are a seasoned security expert.</p>
+<hr />
+<h3 id="classification">Classification</h3>
+<p><input type="checkbox" id="004" /><label for="004"><img alt="004" src="./../slides/for_everyone/for_everyone.004.jpeg" /></label>
+<em>004. Classification ratings for these slides.</em></p>
+<p>Because this information is so valuable, we're going to produce a public version of the slides that you can share with family and friends. Each slide contains a classification level based on the information present in the slide. I'll be producing three versions of the training at the end, one of which will be a public version you can share however you like.</p>
+<p>Any slide with a green icon and the word "public" can be shared however you like. However, if it's red and says "internal only", it's not to be shared with anyone outside of Red Ventures under any circumstances.</p>
+<p>I've included real examples of ongoing attacks in some of the material, and we want to be sure we don't tip our hand to attackers that we're on to them.</p>
+<hr />
+<h3 id="classification-demo">Classification Demo</h3>
+<p><input type="checkbox" id="005" /><label for="005"><img alt="005" src="./../slides/for_everyone/for_everyone.005.jpeg" /></label>
+<em>005. Showing where slide classifications are located.</em></p>
+<p>If you're unsure where to look, it's down here in the bottom left. For example, this slide is "public".</p>
+<hr />
+<h3 id="the-security-team">The Security Team</h3>
+<p><input type="checkbox" id="006" /><label for="006"><img alt="006" src="./../slides/redacted.jpeg" /></label>
+<em>006. Security Team.</em></p>
+<ul>
+<li>Andre Mintz, Chief Information Security Officer</li>
+<li>Raghu Kotha, Director of Engineering</li>
+<li>Carla Sweeney, Director</li>
+<li>Jim Sabinske, Director</li>
+</ul>
+<hr />
+<h3 id="our-job">Our Job</h3>
+<p><input type="checkbox" id="007" /><label for="007"><img alt="007" src="./../slides/for_everyone/for_everyone.007.jpeg" /></label>
+<em>007. Our job as a security team.</em></p>
+<p>Why does the security team even exist? Despite what you may think, we’re not here to say “No” to everything, or to chastise you for doing something "wrong". We’re here to keep Red Ventures secure, and to make it easy for you to do the right (i.e. secure) thing automatically. Never be afraid to come to us for help, or to let us know you may have done something that put us at risk. We’d rather know about it than not! If we've implemented a security feature that has made your life unnecessarily more annoying, we want to know about that too, since our goal isn't to add features that make your lives harder.</p>
+<p>We're not here to be a bottleneck either. You'll notice that user access reviews don't go through the security team, and we don't have to sign-off on everything security related. Teams are trusted to make their own decisions (within reason).</p>
+<hr />
+<h3 id="tracking-attendance">Tracking Attendance</h3>
+<p><input type="checkbox" id="008" /><label for="008"><img alt="008" src="./../slides/for_everyone/for_everyone.008.jpeg" /></label>
+<em>008. Blue.</em></p>
+<p>One of the new things this year, due to our size, is that we need to track attendance for this training. Typically this is done by either getting everyone to scan their access cards, or by taking roll call. Sometimes it's about sending a survey asking questions about the material and if you answer incorrectly you have to resit the training. We're not going to do any of that, because.. well, because I didn't like any of those options.</p>
+<p>Instead, I'm going to satisfy the constraint of tracking attendance in the silliest way possible. At the end of this training, you will get a survey with only two questions. "What was the color?" and "What was the animal?". Yes, there will be a slide at the end with an animal on it.</p>
+<p>By answering both questions correctly, this will "prove" you attended the entire training.</p>
+<p>Of course, yes, I know this can be gamed. Yes, I know you can cheat. This seemed more fun than any of the other options, and at least makes a good faith attempt at providing evidence you stayed for the entire training. Honor system here folks, I'm trusting you all to help me out here and make this easy.</p>
+<hr />
+<h3 id="question">Question</h3>
+<p><input type="checkbox" id="009" /><label for="009"><img alt="009" src="./../slides/for_everyone/for_everyone.009.jpeg" /></label>
+<em>009. Bike locks.</em></p>
+<p>Now a quick question to get things rolling. Let's say you're the healthy type, and you like to cycle around the city. You are somewhere around the streets of Charlotte, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you choose?</p>
+<p>Hopefully, you've realized that both of these answers are absurd and aren't going to work. Using no lock leaves you with no security at all and your bike won't be there when you return, whereas using 100 locks will leave your bike very secure, but you'll need to take the day off in order to lock and unlock it.</p>
+<hr />
+<h3 id="security-vs-convenience">Security vs Convenience</h3>
+<p><input type="checkbox" id="010" /><label for="010"><img alt="010" src="./../slides/for_everyone/for_everyone.010.jpeg" /></label>
+<em>010. Security vs convenience.</em></p>
+<p>The point I'm trying to make is that there's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. If you get a bunch of people in a room and ask them if they want to be secure, they'll say yes. But given the choice between being secure and having convenience, most folks opt for convenience.</p>
+<hr />
+<h3 id="be-secure-but-usable">Be Secure, But Usable</h3>
+<p><input type="checkbox" id="011" /><label for="011"><img alt="011" src="./../slides/for_everyone/for_everyone.011.jpeg" /></label>
+<em>011. Be secure, but usable.</em></p>
+<p>Our job is to strike a good balance between the options. We want to make sure that Red Ventures as a product/service/partner, and as an office environment, is both secure and usable. Our goal is not to add friction to your day-to-day jobs, but we can't sit entirely at the convenience end of the scale either. So while we may force you into following certain procedures, please know that it's not because we like annoying you, but it's because we don't really have a choice.</p>
+<hr />
+<h3 id="no-faking">No Faking</h3>
+<p><input type="checkbox" id="012" /><label for="012"><img alt="012" src="./../slides/for_everyone/for_everyone.012.jpeg" /></label>
+<em>012. No faking.</em></p>
+<p>Importantly, we never want to fake security. Putting a sign saying you have a burglar alarm on your front lawn when really you don't might deter a few criminals, but anyone who really wants to steal something will just ignore it anyway.</p>
+<hr />
+<h3 id="faking-is-the-path-to-the-dark-side">Faking is the Path to the Dark Side</h3>
+<p><input type="checkbox" id="013" /><label for="013"><img alt="013" src="./../slides/for_everyone/for_everyone.013.jpeg" /></label>
+<em>013. Yoda, dropping some knowledge on fake security.</em></p>
+<p>Faking security leads us down a dark path, and will give us a false sense of security. There are multiple ways to fake security. Some terms you may have heard of are "Security Through Obscurity", where the secrecy of the implementation is being relied upon. Imagine a padlock manufacturer coming out with a padlock they say is unbreakable. You want to look inside to see how it works, but they say "No no no, you can't do that, that would give away the secret. You're not allowed to look inside!". Criminals, of course, being well known for following the rules.</p>
+<p>Another term you may have heard of is "Security Theatre"...</p>
+<hr />
+<h3 id="security-theater">Security Theater</h3>
+<p><input type="checkbox" id="014" /><label for="014"><img alt="014" src="./../slides/for_everyone/for_everyone.014.jpeg" /></label>
+<em>014. What is security theater? <a href="https://en.wikipedia.org/wiki/Security_theater">Reference</a></em></p>
+<p>This is where you spend time and effort on things which merely give the <em>appearance</em> of improved security, without actually providing it. A lot of people hold up the TSA as an example of this, but I want to use the TSA as another example of where bad security came to bite them.</p>
+<p>A "backdoor" is another type of fake security. This refers to when there's a supposedly secret method of bypassing the security of something, typically only given to a few people.</p>
+<hr />
+<h3 id="tsa-baggage-locks">TSA Baggage Locks</h3>
+<p><input type="checkbox" id="015" /><label for="015"><img alt="015" src="./../slides/for_everyone/for_everyone.015.jpeg" /></label>
+<em>015. Story in the Washington Post. <a href="https://www.washingtonpost.com/local/trafficandcommuting/where-oh-where-did-my-luggage-go/">Reference</a></em></p>
+<p>You may remember a news story a few years ago in the Washington Post. It was around Thanksgiving, and they had an article all about how the TSA keep your bags safe during the holiday period. They held up TSA locks as an example. You've probably seen these locks, where you have a code or key to unlock it, but the TSA have some master keys to also unlock it. The article included a photos of these master keys. Quite a high resolution photo in fact. So I'm sure you can guess what happened next.</p>
+<hr />
+<h3 id="3d-print-tsa-master-keys">3D Print TSA Master Keys</h3>
+<p><input type="checkbox" id="016" /><label for="016"><img alt="016" src="./../slides/for_everyone/for_everyone.016.jpeg" /></label>
+<em>016. Print your own TSA master key from the comfort of your own home. <a href="https://github.com/Xyl2k/TSA-Travel-Sentry-master-keys/">Reference</a></em></p>
+<p>Yep, you can now 3D print your own TSA master keys in the comfort of your own home.</p>
+<p>Any security provided by these locks are now ineffective. You might still deter a few folks, but anyone who's determined to get in your bags will now have a much easier time of doing it.</p>
+<p>Backdoors pop up all over the place. Do any of you have a modem provided by your ISP? Pretty much every one of them has a backdoor on them for the purposes of customer support. A secret password that the customer support agents know, usually derived from your modem serial number in some way, that gives them the ability to change settings if you call them up. A lot of times attackers can figure out the patterns used and also get access to your modems. Google <a href="https://encrypted.google.com/search?q=ARRIS+modem+backdoor">"ARRIS modem backdoor"</a> if you want to read about one example.</p>
+<p>Hopefully you're starting to see why faking security is a bad thing, and something we want to stay away from.</p>
+<hr /></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>&copy; 2018 Red Ventures<br></small>
+        
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../js/jquery-1.10.2.min.js"></script>
+    <script src="../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '..';
+    </script>
+    <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+    <script src="../js/base.js"></script>
+    <script src="../assets/js/jquery-1.10.2.min.js"></script>
+    <script src="../assets/js/lazy_load_images.js"></script>
+    <script src="../assets/js/require.js"></script>
+    <script src="../search/require.js"></script>
+    <script src="../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

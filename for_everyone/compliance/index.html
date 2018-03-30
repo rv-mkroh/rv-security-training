@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A general security training program for Red Ventures"> 
+    <meta name="author" content="Mark Kroh"> 
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title>Compliance - RV Security</title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+
+    <link href="../../assets/css/extra.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/slides.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/training.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../">RV Security</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../social-engineering/">Social</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../passwords/">Passwords</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../physical-security/">Physical</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../wireless-security/">Wireless</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../data-handling/">Data</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Compliance</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../conclusion/">Conclusion</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../data-handling/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../conclusion/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#compliance">Compliance</a></li>
+        <li class="first-level "><a href="#gdpr">GDPR</a></li>
+        <li class="first-level "><a href="#gdpr_1">GDPR</a></li>
+        <li class="first-level "><a href="#dear-santa">Dear Santa</a></li>
+        <li class="first-level "><a href="#pci">PCI</a></li>
+        <li class="first-level "><a href="#pci-compliance">PCI Compliance</a></li>
+        <li class="first-level "><a href="#hipaa">HIPAA</a></li>
+        <li class="first-level "><a href="#phi">PHI</a></li>
+        <li class="first-level "><a href="#health-info-at-rv">Health info at RV?</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h3 id="compliance">Compliance</h3>
+<p><em><input type="checkbox" id="129" /><label for="129"><img alt="129" src="../../slides/for_everyone/for_everyone.129.jpeg" /></label></em>
+<em>128. Compliance.</em></p>
+<p>OK, we're on to our final topic. Compliance.</p>
+<blockquote>
+<p>If you don't know what that background image is about, go and watch a cheesy 80's sci-fi movie called "<a href="https://www.imdb.com/title/tt0091059/">Flight of the Navigator</a>".</p>
+</blockquote>
+<p>We have a variety of compliance restrictions that affect how we operate, so I want to spend a bit of time talking about each of them.</p>
+<hr />
+<h3 id="gdpr">GDPR</h3>
+<p><input type="checkbox" id="130" /><label for="130"><img alt="130" src="../../slides/for_everyone/for_everyone.130.jpeg" /></label>
+<em>129. GDPR.</em></p>
+<p>The first one is GDPR. This stands for General Data Protection Regulation and is a new European law coming into effect later this year. I'm required to tell you that this exists, and is a thing.</p>
+<p>...</p>
+<p>Just kidding, of course I'm going to go into more detail.</p>
+<hr />
+<h3 id="gdpr_1">GDPR</h3>
+<p><input type="checkbox" id="131" /><label for="131"><img alt="131" src="../../slides/for_everyone/for_everyone.131.jpeg" /></label>
+<em>130. GDPR. <a href="https://www.eugdpr.org/">Reference</a></em></p>
+<p>GDPR goes into effect on 25th May 2018, and has very strict rules for how personal information should be handled, with big fines for those who don't follow the rules. We will be subject to GDPR, as we handle data for users who are EU citizens.</p>
+<p>We are mostly considered a "Data Processor" under GDPR, rather than a Data Controller. Our customers are the data controller (they control the data of their employees), and we process their data on their behalf. Any customers who are subject to GDPR as controllers will need to execute a Data Processing Agreement (DPA) with us if we are to continue processing their data. Since we also have third-parties which process customer data on <em>our</em> behalf (for example, our notification and telephony providers), we will also need to execute DPA's with them. It's worth noting that there are also a few cases where we would be considered a Data Controller, such as for our UK based employees.</p>
+<p>We'll need to include extra steps in our development processes to include data protection from the onset of the designing our systems, rather than something that's added on later.</p>
+<p>Data portability is the right for a data subject (i.e. our users) to receive the personal data we have stored which concerns them. We need to provide this in a "commonly used and machine readable format". The user also has the right to transmit that data to another controller.</p>
+<p>Another thing GDPR requires is the "Right to be Forgotten", also known as Data Erasure, this entitles the data subject to have the data controller erase his/her personal data, cease further dissemination of the data, and potentially have third parties halt processing of the data.</p>
+<p>One very important part is that we have to specify the intended purpose of all personal data we will process, and cannot use that data for any other purpose. For example, if we specify the intended purpose of collecting email addresses is to send Red Ventures notifications, we cannot then use that email address to send the user marketing material.</p>
+<p>And there are very hefty penalties for any breach of GDPR. 4% of annual global turnover, or €20 Million, whichever is greater.</p>
+<p>There are more things involved with GDPR that I’ve gone over here, such as “Consent” and “Profiling”, etc. The link at the bottom has more information if you’re interested.</p>
+<hr />
+<h3 id="dear-santa">Dear Santa</h3>
+<p><input type="checkbox" id="132" /><label for="132"><img alt="132" src="../../slides/for_everyone/for_everyone.132.jpeg" /></label>
+<em>131. Dear Santa... <a href="https://twitter.com/pwnallthethings/status/945353758137049088">Reference</a></em></p>
+<p>The bottom line is that GDPR is going to lead to a lot of interesting situations in the industry.</p>
+<hr />
+<h3 id="pci">PCI</h3>
+<p><input type="checkbox" id="133" /><label for="133"><img alt="133" src="../../slides/redacted.jpeg" /></label>
+<em>132. Redacted slides.</em></p>
+<p>The Payment Card Industry Data Security Standard (PCI DSS) is a set of standards that all companies that accept, process, store or transmit credit card information must follow. Failure to maintain a secure environment can threaten our ability to handle this data, which would alleviate the need for most of us to show up to work tomorrow.</p>
+<hr />
+<h3 id="pci-compliance">PCI Compliance</h3>
+<p><input type="checkbox" id="133" /><label for="133"><img alt="133" src="../../slides/redacted.jpeg" /></label>
+<em>133. Redacted slides.</em></p>
+<p>Many of the security practices we've discussed are part of PCI compliance, including having restricted access when you come in to our facilities. We also restrict access to all computers and the digital resources on our networks. For most of us, simply following the normal practices at RV ensures that we will be compliant. In fact, this training is part of our compliance program, so thanks for being here so we can all have jobs in the future.</p>
+<hr />
+<h3 id="hipaa">HIPAA</h3>
+<p><input type="checkbox" id="133" /><label for="133"><img alt="133" src="../../slides/redacted.jpeg" /></label>
+<em>134. Redacted slides.</em></p>
+<p>HIPAA
+HIPAA, or the Health Insurance Portability and Accountability Act, mandates the privacy and security of certain health-related information. There are two main rules associated with the act; the privacy rule and the security rule. Basically, the privacy rule outlines what information needs to be protected and the security rule addresses the technical safeguards that must be put in place.</p>
+<hr />
+<h3 id="phi">PHI</h3>
+<p><input type="checkbox" id="133" /><label for="133"><img alt="133" src="../../slides/redacted.jpeg" /></label>
+<em>135. Redacted slides.</em></p>
+<p>Protected health information is any “Individually identifiable health information.” This is any data that relates to:</p>
+<pre><code>* the individual’s past, present or future physical or mental health or condition,
+
+* the provision of health care to the individual, or
+
+* the past, present, or future payment for the provision of health care to the individual,
+</code></pre>
+<p>Examples include many common identifiers (e.g., name, address, birth date, Social Security Number).</p>
+<hr />
+<h3 id="health-info-at-rv">Health info at RV?</h3>
+<p><input type="checkbox" id="133" /><label for="133"><img alt="133" src="../../slides/redacted.jpeg" /></label>
+<em>136. Redacted slides.</em></p>
+<p>Why do we fall under the governance of HIPAA? Well, honestly, many of our businesses don't. But anyone working with our health care partners needs to be aware of these restrictions and will have to go through more extensive training. But we should all understand that HIPAA, like GDPR, is a thing at RV and it may impact the access we have to certain data.</p></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>&copy; 2018 Red Ventures<br></small>
+        
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../assets/js/jquery-1.10.2.min.js"></script>
+    <script src="../../assets/js/lazy_load_images.js"></script>
+    <script src="../../assets/js/require.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

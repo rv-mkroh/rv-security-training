@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A general security training program for Red Ventures"> 
+    <meta name="author" content="Mark Kroh"> 
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title>Data - RV Security</title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+
+    <link href="../../assets/css/extra.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/slides.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/training.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../">RV Security</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../">Home</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../social-engineering/">Social</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../passwords/">Passwords</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../physical-security/">Physical</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../wireless-security/">Wireless</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Data</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../compliance/">Compliance</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../conclusion/">Conclusion</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../wireless-security/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../compliance/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#personally-identifiable-information-pii">Personally Identifiable Information (PII)</a></li>
+        <li class="first-level "><a href="#what-is-pii">What is PII?</a></li>
+        <li class="first-level "><a href="#basic-guidelines">Basic Guidelines</a></li>
+        <li class="first-level "><a href="#company-data">Company Data?</a></li>
+        <li class="first-level "><a href="#data-classification">Data Classification</a></li>
+        <li class="first-level "><a href="#data-handling">Data Handling</a></li>
+        <li class="first-level "><a href="#personal-devices">Personal Devices</a></li>
+        <li class="first-level "><a href="#red-ventures-devices">Red Ventures Devices</a></li>
+        <li class="first-level "><a href="#be-mindful">Be Mindful</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h3 id="personally-identifiable-information-pii">Personally Identifiable Information (PII)</h3>
+<p><em><input type="checkbox" id="119" /><label for="119"><img alt="119" src="../../slides/for_everyone/for_everyone.119.jpeg" /></label>
+_119. Personally Identifiable Information (PII).</em></p>
+<p>The next topic is Personally Identifiable Information, usually abbreviated to PII, or sometimes just PI.</p>
+<hr />
+<h3 id="what-is-pii">What is PII?</h3>
+<p><input type="checkbox" id="120" /><label for="120"><img alt="120" src="../../slides/for_everyone/for_everyone.120.jpeg" /></label>
+<em>120. What is PII?</em></p>
+<p>This is any information that can be used to identify a single person in context. By that I mean, it's no good just to be able to tell that certain data belongs to a single human, you have to be able to identify that particular human out of all the others that exist.</p>
+<hr />
+<h3 id="basic-guidelines">Basic Guidelines</h3>
+<p><input type="checkbox" id="121" /><label for="121"><img alt="121" src="../../slides/for_everyone/for_everyone.121.jpeg" /></label>
+<em>121. Basic Guidelines.</em></p>
+<p>We have some basic guidelines when it comes to personal information at Red Ventures. First of all, don't discuss company information in public. The number of times I overhear conversations out in the world from folks at other companies discussing things they really shouldn't be is astounding. Please don't do the same.</p>
+<p>Don't look at information you shouldn't. Let's say you come across a list of employees and their SSN's. That's pretty bad, and is something we want to know about. Don't just scroll through the data and keep it to yourself. Let us know immediately so we can do something about it. Just like with stolen devices, you won't get into trouble for accessing something you shouldn't have access to if it was an honest mistake. But if you look at that information and don't tell anyone, then later we find out you accessed it, that's going to cause problems.</p>
+<p>All company devices are encrypted by default when you get them. Don't turn this off. We give you administrative access to your laptops because we want you to have the ability to do whatever you need with them to get your job done. Turning off encryption is not one of them.</p>
+<p>Finally, we need to be careful with company data. What is company data you might ask.</p>
+<hr />
+<h3 id="company-data">Company Data?</h3>
+<p><input type="checkbox" id="122" /><label for="122"><img alt="122" src="../../slides/for_everyone/for_everyone.122.jpeg" /></label>
+<em>122. Company Data?</em></p>
+<p>It's not this type of data. It's the data we store in our systems that allow us to run our business.</p>
+<hr />
+<h3 id="data-classification">Data Classification</h3>
+<p><input type="checkbox" id="123" /><label for="123"><img alt="123" src="../../slides/for_everyone/for_everyone.123.jpeg" /></label>
+<em>123. Data classification.</em></p>
+<p>We have three distinct types of data at Red Ventures.</p>
+<ul>
+<li><em>General Data</em> is anything that is <em>intentionally</em> available to the public. The key being intentionally. If something gets leaked, it doesn't automatically become general data.</li>
+<li><em>Business data</em> is anything used to operate our business. Examples would be our employee list, payroll information, etc.</li>
+<li><em>Customer data</em> is any data provided to us by the customer.</li>
+</ul>
+<p>Customer data is by far the most valuable and protected data we have at Red Ventures, and is subject to our most stringent security rules.</p>
+<hr />
+<h3 id="data-handling">Data Handling</h3>
+<p><input type="checkbox" id="124" /><label for="124"><img alt="124" src="../../slides/for_everyone/for_everyone.124.jpeg" /></label>
+<em>124. Data handling.</em></p>
+<p>How we handle data depends on what type of data it is. For example, general data does not need to be encrypted, as it's considered public. All other types of data should always be encrypted in transit and at rest however.</p>
+<p>You can view a more detailed description of our data handling policies in our written policies. To request a copy of this, please contact our security team.</p>
+<hr />
+<h3 id="personal-devices">Personal Devices</h3>
+<p><input type="checkbox" id="126" /><label for="126"><img alt="126" src="../../slides/for_everyone/for_everyone.126.jpeg" /></label>
+<em>125. No Red Ventures data on personal devices.</em></p>
+<p>When it comes to handling data, it's important to make sure that certain data never leaves our secured environments.</p>
+<p>We do not allow any Red Ventures data to be stored on your personal devices. This means you do not clone a Red Ventures git repository to your personal device, and you do not download sales contracts or employee lists to your personal devices.</p>
+<p>This does not mean you can't check your email from your phone. Any website or hosted platform is perfectly fine to access from your personal devices. You should never be downloading and storing anything on your phone that is Red Ventures related however.</p>
+<p>If you're unsure what counts as a hosted platform, just ask us!</p>
+<p>This is also why it's important for you to let us know if your personal device is lost or stolen, so we can lock it out from all of our services.</p>
+<hr />
+<h3 id="red-ventures-devices">Red Ventures Devices</h3>
+<p><input type="checkbox" id="127" /><label for="127"><img alt="127" src="../../slides/for_everyone/for_everyone.127.jpeg" /></label>
+<em>126. No customer data on Red Ventures devices.</em></p>
+<p>Likewise, you should never store customer data, even on Red Ventures devices! Customer data is never to leave our production environment under any circumstances.</p>
+<p>That means you do not download parts of our production database to your Red Ventures laptops, you do not transfer real production data to our staging or sandbox environments to run some tests, etc. Our production environment has strict security controls and audit logging in place. If you transfer data away from those environments, we lose those abilities.</p>
+<p>We have analytics mechanisms available to you in our production environment to run these types of things. If you need something different or special set up for a specific project, please let us know and we're more than happy to guide and help you set that up.</p>
+<hr />
+<h3 id="be-mindful">Be Mindful</h3>
+<p><input type="checkbox" id="128" /><label for="128"><img alt="128" src="../../slides/for_everyone/for_everyone.128.jpeg" /></label>
+<em>127. Be Mindful.</em></p>
+<p>The takeaway from all of this is that you should be mindful of how you handle data. Treat customer data as you would want your own data to be treated. Like I said earlier, customer data is our most valuable asset, and customers are trusting us with it. Breaching that trust is unacceptable, and so we all need to make sure we follow the rules.</p>
+<p>If you’re not sure how to treat certain data, just ask us! Maybe it’s a case we hadn’t considered yet, and something we need to create a policy for.</p>
+<hr /></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>&copy; 2018 Red Ventures<br></small>
+        
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../assets/js/jquery-1.10.2.min.js"></script>
+    <script src="../../assets/js/lazy_load_images.js"></script>
+    <script src="../../assets/js/require.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>

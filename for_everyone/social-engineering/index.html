@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A general security training program for Red Ventures"> 
+    <meta name="author" content="Mark Kroh"> 
+    <link rel="shortcut icon" href="../../img/favicon.ico">
+
+    <title>Social - RV Security</title>
+
+    <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/font-hack/2.018/css/hack.min.css">
+    <link href='//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400,300,600,700&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+    <link href="../../css/base.css" rel="stylesheet">
+    <link href="../../css/cinder.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/highlight.css">
+
+
+    <link href="../../assets/css/extra.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/slides.css" rel="stylesheet">
+
+
+    <link href="../../assets/css/training.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
+    <script>
+    WebFont.load({
+        google: {
+            families: ['Open Sans', 'PT Sans']
+        }
+    });
+    </script>
+
+    
+</head>
+
+<body>
+
+    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+
+            <a class="navbar-brand" href="../">RV Security</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="active">
+                        <a href="./">Social</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../passwords/">Passwords</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../physical-security/">Physical</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../wireless-security/">Wireless</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../data-handling/">Data</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../compliance/">Compliance</a>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../conclusion/">Conclusion</a>
+                    </li>
+                
+                
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                            <i class="fa fa-search"></i> Search
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="next" href="../">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../passwords/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+    <div class="container">
+        
+        <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="first-level active"><a href="#social-engineering">Social Engineering</a></li>
+        <li class="first-level "><a href="#what-is-social-engineering">What is Social Engineering?</a></li>
+        <li class="first-level "><a href="#catch-me-if-you-can">Catch Me If You Can</a></li>
+        <li class="first-level "><a href="#building-trust">Building Trust</a></li>
+        <li class="first-level "><a href="#employee-directory">Employee Directory</a></li>
+        <li class="first-level "><a href="#fishing-phishing">~~Fishing~~ Phishing</a></li>
+        <li class="first-level "><a href="#nigerian-prince-scam">Nigerian Prince Scam</a></li>
+        <li class="first-level "><a href="#is-my-credit-card-stolen">Is My Credit Card Stolen?</a></li>
+        <li class="first-level "><a href="#need-a-debit-card">Need a Debit Card?</a></li>
+        <li class="first-level "><a href="#reel-or-fish">Reel or Fish?</a></li>
+        <li class="first-level "><a href="#real-or-phish">Real or Phish?</a></li>
+        <li class="first-level "><a href="#your-account-has-a-debt-and-is-past-due">Your account has a debt and is past due.</a></li>
+        <li class="first-level "><a href="#phish">Phish!</a></li>
+        <li class="first-level "><a href="#docusign">DocuSign?</a></li>
+        <li class="first-level "><a href="#docusgn">DocuSgn</a></li>
+        <li class="first-level "><a href="#more-phishing-examples">More Phishing Examples</a></li>
+        <li class="first-level "><a href="#spear-phishing">Spear Phishing</a></li>
+        <li class="first-level "><a href="#phishing-archive">Phishing Archive</a></li>
+        <li class="first-level "><a href="#protecting-yourself">Protecting Yourself</a></li>
+        <li class="first-level "><a href="#reporting-phishing">Reporting Phishing</a></li>
+        <li class="first-level "><a href="#reporting-phishing-2">Reporting Phishing (2)</a></li>
+        <li class="first-level "><a href="#reporting-spam">Reporting Spam</a></li>
+        <li class="first-level "><a href="#you-are-our-greatest-asset">You Are Our Greatest Asset!</a></li>
+        <li class="first-level "><a href="#not-just-phishing">Not Just Phishing</a></li>
+        <li class="first-level "><a href="#ask-us">Ask us!</a></li>
+    </ul>
+</div></div>
+        <div class="col-md-9" role="main">
+
+<h3 id="social-engineering">Social Engineering</h3>
+<p><input type="checkbox" id="017" /><label for="017"><img alt="017" src="../../slides/for_everyone/for_everyone.017.jpeg" /></label>
+<em>017. Social Engineering.</em></p>
+<p>Social Engineering is our first topic of the day, and that stock image is quite possibly my favorite ever. Seriously, why wear a balaclava while on the phone? It makes no sense!</p>
+<hr />
+<h3 id="what-is-social-engineering">What is Social Engineering?</h3>
+<p><input type="checkbox" id="018" /><label for="018"><img alt="018" src="../../slides/for_everyone/for_everyone.018.jpeg" /></label>
+<em>018. What is social engineering? <a href="https://en.wikipedia.org/wiki/Social_engineering_(security)">Reference</a></em></p>
+<p>For those who've not heard the term before, here's a quick definition of what social engineering is. Basically it's a type of confidence trickery. Convincing people to give up information either without them realizing it, or by making them believe you're someone else.</p>
+<hr />
+<h3 id="catch-me-if-you-can">Catch Me If You Can</h3>
+<p><input type="checkbox" id="019" /><label for="019"><img alt="019" src="../../slides/for_everyone/for_everyone.019.jpeg" /></label>
+<em>019. Catch Me If You Can. <a href="https://www.youtube.com/watch?v=iJIc16aqpO8">Reference</a></em></p>
+<p>If you've ever seen the movie <a href="https://www.imdb.com/title/tt0264464/">"Catch Me If You Can"</a> (or read the book) you will have seen lots of examples of social engineering. "<a href="https://www.imdb.com/title/tt0091042/">Ferris Bueller's Day Off</a>" is another one. If you've not seen either of those movies, I'd highly recommend giving them a watch. The link at the bottom of the slide here is to a <a href="https://www.youtube.com/watch?v=iJIc16aqpO8">talk by Frank Abagnale Jr</a>, the real person on which Catch Me if You Can is based. He tells the story of his exploits. It's quite entertaining and eye opening.</p>
+<hr />
+<h3 id="building-trust">Building Trust</h3>
+<p><input type="checkbox" id="020" /><label for="020"><img alt="020" src="../../slides/for_everyone/for_everyone.020.jpeg" /></label>
+<em>020. Building Trust.</em></p>
+<p>Social engineering is mostly about building trust. If I wanted to social engineer the CEO of Red Ventures, Ric would not be my first phone call. I'd start by calling a low-level employee claiming to be a new employee needing help, or I'd call a new employee and claim to be an established employee asking for help. I'd learn some little bits of information, maybe a bit of internal lingo that's being used. Then the next person I call would be slightly higher up the chain, I'd use the information I learned on the first call to sound more credible. And so on and so on.</p>
+<p>By the time I call the CEO, I'd have so much internal knowledge and language for the company that it would sound like I was an employee anyway.</p>
+<p>This is hard to defend against, since human nature is to want to help others. So if someone contacts you claiming to be an employee, and you've never heard of them before, verify they are who they say they are via another channel. If they email you, ping them on Slack to check (and vice versa).</p>
+<hr />
+<h3 id="employee-directory">Employee Directory</h3>
+<p><input type="checkbox" id="021" /><label for="021"><img alt="021" src="../../slides/redacted.jpeg" /></label>
+<em>021. Redacted slide.</em></p>
+<p>Another way to verify if someone works here is to check the <a href="https://intranet.redventures.net/admin/hr/employee_search.php">Employee Search</a> on the Red Ventures' intranet. A bonus of doing this is seeing some of the truly horrific first-day mug shots we take!</p>
+<hr />
+<h3 id="fishing-phishing">~~Fishing~~ Phishing</h3>
+<p><input type="checkbox" id="022" /><label for="022"><img alt="022" src="../../slides/for_everyone/for_everyone.022.jpeg" /></label><em>
+_022. ~~Fishing~~ Phishing.</em></p>
+<p>I'm going to focus on one particular type of social engineering attack that we get exposed to, phishing (with a P-H), and again, this is another one of my favorite stock images. The term comes from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. As we get larger as a company, we become more of a target for these types of attacks.</p>
+<hr />
+<h3 id="nigerian-prince-scam">Nigerian Prince Scam</h3>
+<p><input type="checkbox" id="023" /><label for="023"><img alt="023" src="../../slides/for_everyone/for_everyone.023.jpeg" /></label>
+<em>023. Nigerian Prince Scam.</em></p>
+<p>Some phishing attacks can be pretty easy to spot. You've all likely heard of the Nigerian Prince Scam. This is where an email claiming to be someone who can give you lots of money is sent to lots of people. This is a very "spray and pray" approach to scamming. Maybe 1 or 2 people will bite, but that makes it worthwhile enough for the scammer. These are pretty easy to spot, and not something we really worry about. Hopefully none of you would ever fall for something like this.</p>
+<hr />
+<h3 id="is-my-credit-card-stolen">Is My Credit Card Stolen?</h3>
+<p><input type="checkbox" id="024" /><label for="024"><img alt="024" src="../../slides/for_everyone/for_everyone.024.jpeg" /></label>
+<em>024. ismycreditcardstolen.com. <a href="http://ismycreditcardstolen.com/">Reference</a></em></p>
+<p>But you don't even have to send emails to people, sometimes you can just lay a trap and people will gladly provide you with information instead. Here's a great website, <a href="http://ismycreditcardstolen.com">ismycreditcardstolen.com</a>. You just enter your credit card information, and it'll helpfully tell you if it's been stolen or not. Of course, as soon as you enter the details, your credit card information has in fact been stolen.</p>
+<p>But it has that nice "Verified Secure", with the padlock and green tick, so it must be OK, right?</p>
+<blockquote>
+<p>I should be clear that this isn't really a bad website, and is safe to visit. It's made to point out to people that they shouldn't fill in their details on random sites.</p>
+</blockquote>
+<hr />
+<h3 id="need-a-debit-card">Need a Debit Card?</h3>
+<p><input type="checkbox" id="025" /><label for="025"><img alt="025" src="../../slides/for_everyone/for_everyone.025.jpeg" /></label>
+<em>025. twitter.com/needadebitcard. <a href="https://twitter.com/needadebitcard">Reference</a></em></p>
+<p>Taking it a step further, sometimes you don't even need to lay a trap, you can just search the internet for the information you want. There's a great Twitter account called <a href="https://twitter.com/needadebitcard">@NeedADebitCard</a>, which retweets people who post pictures of their debit cards to Twitter.</p>
+<p>It gets better, because often the replies will be <em>"Looks great, what does the back look like?"</em>, and then they'll go and post a picture of the back too!</p>
+<p>I really hope none of you would fall for anything like this.</p>
+<p>These are all interesting to see, but the type of attack we care most about are the more targeted ones.</p>
+<hr />
+<h3 id="reel-or-fish">Reel or Fish?</h3>
+<p><input type="checkbox" id="026" /><label for="026"><img alt="026" src="../../slides/for_everyone/for_everyone.026.jpeg" /></label>
+<em>026. Reel or Fish?.</em></p>
+<p>So I'd like to play a quick game with you all now. I know, audience participation, right? But don't worry, it's a fun game, honest.</p>
+<p>It's a game I've called "Reel or Fish?"</p>
+<hr />
+<h3 id="real-or-phish">Real or Phish?</h3>
+<p><input type="checkbox" id="027" /><label for="027"><img alt="027" src="../../slides/for_everyone/for_everyone.027.jpeg" /></label>
+<em>027. Real or Phish?.</em></p>
+<p>Sorry, I mean "Real or Phish?"</p>
+<p>I'm going to show you some genuine emails that have been sent to employees of another company (shared with the recipients permission of course), and it's your job to tell me if you think it's a real email, or a phishing attempt.</p>
+<hr />
+<h3 id="your-account-has-a-debt-and-is-past-due">Your account has a debt and is past due.</h3>
+<p><input type="checkbox" id="028" /><label for="028"><img alt="028" src="../../slides/for_everyone/for_everyone.028.jpeg" /></label>
+<em>028. Your account has a debt and is past due.</em></p>
+<p>Let's start with this one.</p>
+<p><em>"Our records show that your account has a debt of $436.{rand(10,100)}}. Previous attempts of collecting this sum have failed."</em></p>
+<p>What do we think?</p>
+<hr />
+<h3 id="phish">Phish!</h3>
+<p><input type="checkbox" id="029" /><label for="029"><img alt="029" src="../../slides/for_everyone/for_everyone.029.jpeg" /></label>
+<em>029. Phish!.</em></p>
+<p>Yes, of course this is a phishing attempt. Quite an easy one to spot thanks to the fact the attacker left in their templating code rather than putting in the cents value. But there were some other indicators here too,</p>
+<ul>
+<li>A yellow flag in that it said "Dear Customer", most emails now will be personalized with your name if they know it.</li>
+<li>A red flag in that there's a <code>.zip</code> attachment for an invoice, as these would typically be a PDF.</li>
+</ul>
+<p>But of course, the primary red flag is the templating code.</p>
+<hr />
+<h3 id="docusign">DocuSign?</h3>
+<p><input type="checkbox" id="030" /><label for="030"><img alt="030" src="../../slides/for_everyone/for_everyone.030.jpeg" /></label>
+<em>030. DocuSign?</em></p>
+<p>Ok, let's try another one. What do we think about this email from DocuSign?</p>
+<p>Looks like a genuine DocuSign email, has the usual style, same big "Review Document" button. Anything suspicious here?</p>
+<hr />
+<h3 id="docusgn">DocuSgn</h3>
+<p><input type="checkbox" id="031" /><label for="031"><img alt="031" src="../../slides/for_everyone/for_everyone.031.jpeg" /></label>
+<em>031. DocuSgn.</em></p>
+<p>This is another phishing email. If you look closely at the domain name in the email, you'll see that it's not the real <code>docusign.com</code> domain, but rather <code>docusgn.com</code> (Note the missing <code>i</code>). An attacker specifically registered a domain similar to the real one, and sent emails that for all intents and purposes look like the real thing, in order to try and steal your DocuSign credentials. Attacks like these are becoming more and more common.</p>
+<p>One thing you wouldn't have been able to tell from my screenshot, but would if you were viewing this in your email client, is that the "Review Document" link doesn't actually go to a DocuSign domain either. It went to some completely different domain (it wasn't even close to docusign.com) and had some parameters at the end which included your email address.</p>
+<p>One takeaway here is to be sure to hover over any links to see the real address they go to <em>before</em> you click on them. Just because the text in the email says one thing, it doesn't mean that's where the actual link may go. Never click on any links in email that are even remotely suspicious. Sometimes all it takes is a click to do bad things.</p>
+<blockquote>
+<p>Top tip: If it’s a shortened URL with bit.ly, you can append a <code>+</code> to the URL to see where it goes without actually following it.</p>
+</blockquote>
+<p>If you do accidentally click a link in a phishing email, please let us know immediately, as it can affect how we respond to the incident. Don't lie to us to save face, we're not going to ridicule you or shout at you for clicking it, we want to know so that we can properly respond to any potential exploit that could have happened.</p>
+<hr />
+<h3 id="more-phishing-examples">More Phishing Examples</h3>
+<p><input type="checkbox" id="032" /><label for="032"><img alt="032" src="../../slides/redacted.jpeg" /></label>
+<em>032. Redacted slides.</em></p>
+<p><span class="redacted">Redacted</span></p>
+<blockquote>
+<p>A series of slides have been redacted here. They gave examples of more sophisticated phishing attacks that have been waged against Red Ventures employees, and the indicators we used to detect them. We are not including them in the public version to avoid tipping our hand that we detected them.</p>
+</blockquote>
+<hr />
+<h3 id="spear-phishing">Spear Phishing</h3>
+<p><input type="checkbox" id="033" /><label for="033"><img alt="033" src="../../slides/for_everyone/for_everyone.037.jpeg" /></label>
+<em>033. Spear phishing.</em></p>
+<p>These much more targeted attacks are called "<a href="https://en.wikipedia.org/wiki/Phishing#Spear_phishing">Spear Phishing</a>". An attacker spent a lot of time learning about our internal org structure and crafting a legitimate looking email in order to try and get lots of money from us. These are the types of attacks we care the most about protecting against. Ric recently spoke about an email he got that looked like it was a reply to him from our CFO and the only thing that tipped him off that it was a fake was a subtle difference in the way the "original" email was signed compared with how Ric normally signs. You really have to be on your game with these hacks!</p>
+<hr />
+<h3 id="phishing-archive">Phishing Archive</h3>
+<p><input type="checkbox" id="034" /><label for="034"><img alt="034" src="../../slides/redacted.jpeg" /></label>
+<em>034. Redacted slide.</em></p>
+<p><span class="redacted">Redacted</span></p>
+<blockquote>
+<p>This redacted slide showed an image of our internal "Phishing Archive" where we document all of the phishing attacks against us that we've detected, what the indicators were, and how we were able to detect them (whether automated, or via employee report). We've chosen not to share this slide, again, to avoid tipping our hand on some types of attacks.</p>
+</blockquote>
+<hr />
+<h3 id="protecting-yourself">Protecting Yourself</h3>
+<p><input type="checkbox" id="039" /><label for="039"><img alt="039" src="../../slides/for_everyone/for_everyone.039.jpeg" /></label>
+<em>035. Protecting yourself.</em></p>
+<p>So how do we protect ourselves from this type of attack? Unfortunately there's no golden rule I can give you. It's up to us all to remain vigilant and watch for the signs of suspicious emails. Some things to take care with, the "from" address of email can easily be spoofed. There are technologies that can help to prevent this, but they're not implemented everywhere. So while a misspelled domain is a strong indicator of phishing, a real domain isn't a 100% indicator that it's genuine.</p>
+<p>It's like postal mail, you can put whatever you want as the return address, doesn't mean it really came from there. (In fact, this used to be an old scam, you could swap the return and mail-to address, mail it without postage, and the post office would return to the "sender". I would strongly advise against trying this though, since mail fraud is a Federal offense here in the US).</p>
+<p>Don't forget that if you get a communication from someone which sounds suspicious, confirm with them via another channel (Slack, etc). Especially if money is involved!</p>
+<p>And if you suspect you've received a phishing attempt, send it on over to the security team so we can improve our filters (and add it to the Phishing Archive).</p>
+<p>Finally, remember to <strong>never click on any links in a mail you think may be phishing</strong>. Don't even do this to try to get more info about whether it might be phishing - sometimes that click is all that needs to happen for very bad things to happen.</p>
+<hr />
+<h3 id="reporting-phishing">Reporting Phishing</h3>
+<p><input type="checkbox" id="040" /><label for="040"><img alt="040" src="../../slides/for_everyone/for_everyone.040.jpeg" /></label>
+<em>036. Reporting phishing.</em></p>
+<p>As of January 2018, if you do need to report phishing to us, use the following process. Within the email message, a “Red Alert” link will be displayed. Ironically, this is blue. Once you get past the cognitive dissonance of this, simply click Report Phishing.</p>
+<hr />
+<h3 id="reporting-phishing-2">Reporting Phishing (2)</h3>
+<p><input type="checkbox" id="041" /><label for="041"><img alt="041" src="../../slides/for_everyone/for_everyone.041.jpeg" /></label>
+<em>037. Reporting phishing.</em></p>
+<p>The email will be removed from your inbox and sent to the security team for review. The security team will notify the end user of the outcome within 72 hours, returning non-suspicious messages to the recipient.</p>
+<p>If the phishing message is part of a security-driven phishing test, you will receive instant feedback if the message is reported.</p>
+<hr />
+<h3 id="reporting-spam">Reporting Spam</h3>
+<p><input type="checkbox" id="042" /><label for="042"><img alt="042" src="../../slides/for_everyone/for_everyone.042.jpeg" /></label>
+<em>038. Reporting spam.</em></p>
+<p>While we're on the topic of reporting phishing, just a quick note that you can do the same with spam. Spam is considered unsolicited bulk email or any email that is unwanted or unrequested by the recipient. These are mostly commercial advertising but may include chain letters, political mailings, etc.</p>
+<p>You can report Spam in the MimeCast tab of Outlook if you are on a PC. The Spam you report could be the Spam blocked for the rest of Red Ventures. In addition, you can block senders from reaching your inbox in the future</p>
+<hr />
+<h3 id="you-are-our-greatest-asset">You Are Our Greatest Asset!</h3>
+<p><input type="checkbox" id="044" /><label for="044"><img alt="044" src="../../slides/for_everyone/for_everyone.044.jpeg" /></label>
+<em>039. You are our greatest asset!</em></p>
+<p>We don't read your emails, and automatic filtering only gets us so far. It's up to all of you to be able to spot suspicious emails and send them to us. The good news is that you're already great at this! We managed to preemptively block several phishing attacks last year thanks to quick employee reports. Most were deleted from your inbox before you even read them. Don’t assume someone else has already sent us the example, do it anyway. We’d rather have 300 duplicate reports than no report at all.</p>
+<hr />
+<h3 id="not-just-phishing">Not Just Phishing</h3>
+<p><input type="checkbox" id="045" /><label for="045"><img alt="045" src="../../slides/for_everyone/for_everyone.045.jpeg" /></label>
+<em>040. Not just phishing. <a href="https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms">Reference</a></em></p>
+<p>Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.</p>
+<p>For example, the meeting invite for this training said that there would be free cake and desserts served. Sorry to disappoint, but that was a lie, and is an example of "Baiting".</p>
+<p>Another type of social engineering is called "Pretexting", pretending to be someone else to get information. For example, let's say you're on the Frontier team and you receive a phone call: "Hi, this is Tim from Frontier, we're having trouble with the website. I need to speak to our tech account manager right now, this is urgent, we're losing $100,000's every minute here!", you'd probably say "Sure, let me put you in touch with her!", and now you just gave away that Frontier is a customer, to someone who hadn't verified who they are. Very easy to get tricked this way, but very hard to defend against without being confrontational.</p>
+<p>One thing to beware of is a forced sense of urgency. In the above example, the attacker threw about the fact they were losing $100,000's every minute, in order to try and add urgency to the situation and force you to make rash decisions. I don't have a perfect way to solve this, just be vigilant, and report anything suspicious.</p>
+<p>Another trick social engineers like to pull is to force you into a particular communications channel. For example, if you receive an email claiming to be from an employee, but they say they're out of office and can't be contacted by phone today and would rather you communicate via email. This is why it's important to verify via another channel if you're unsure.</p>
+<p>One final example of social engineering would be leaving a USB drive lying on the floor with a virus on it. People love to pick up free USB drives for some reason. Scatter them outside of the office and see if anyone plugs them in, getting you access to a corporate network. If you find a USB drive on the floor and it's not yours, please don't let it anywhere near your computer. Yes, I know we've disabled the USB drives in most laptops, but still. Don't do it.</p>
+<hr />
+<h3 id="ask-us">Ask us!</h3>
+<p><input type="checkbox" id="046" /><label for="046"><img alt="046" src="../../slides/for_everyone/for_everyone.046.jpeg" /></label>
+<em>041. Ask us.</em></p>
+<p>As with anything security related, if you're not sure if you've encountered a social engineering attack, or if you're curious to know more, just ask us!</p>
+<hr /></div>
+        
+    </div>
+
+    <footer class="col-md-12 text-center">
+        <hr>
+        <p>
+        <small>&copy; 2018 Red Ventures<br></small>
+        
+        <small>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p></small>
+    </footer>
+
+    <script src="../../js/jquery-1.10.2.min.js"></script>
+    <script src="../../js/bootstrap-3.0.3.min.js"></script>
+    <script src="../../js/highlight.pack.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+    var base_url = '../..';
+    </script>
+    <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+    <script src="../../js/base.js"></script>
+    <script src="../../assets/js/jquery-1.10.2.min.js"></script>
+    <script src="../../assets/js/lazy_load_images.js"></script>
+    <script src="../../assets/js/require.js"></script>
+    <script src="../../search/require.js"></script>
+    <script src="../../search/search.js"></script>
+
+    <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        <span aria-hidden="true">&times;</span>
+                        <span class="sr-only">Close</span>
+                    </button>
+                    <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                </div>
+                <div class="modal-body">
+                    <p>
+                        From here you can search these documents. Enter your search terms below.
+                    </p>
+                    <form role="form">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        </div>
+                    </form>
+                    <div id="mkdocs-search-results"></div>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </body>
+
+</html>
