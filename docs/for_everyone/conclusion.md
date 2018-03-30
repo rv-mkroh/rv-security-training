@@ -6,8 +6,8 @@ description: This is an open-source version of 'Security Training for Everyone',
 
 ### Would you like to know more?
 
-_<input type="checkbox" id="136" /><label for="136">![136](../slides/for_everyone/for_everyone.136.jpeg)</label>_
-_136. Would you like to know more?_
+<input type="checkbox" id="136" /><label for="136">![136](../slides/for_everyone/for_everyone.136.jpeg)</label>
+_137. Would you like to know more?_
 
 And that's it! All of the topics I had. I hope you all learned something useful, and if not, I hope you at least had a laugh at some of the jokes. If you want to know more about any of the material here, or anything security related that I didn't get chance to cover, here are some ways you can find out more.
 
@@ -16,7 +16,7 @@ And that's it! All of the topics I had. I hope you all learned something useful,
 ### Contact Security Team
 
 <input type="checkbox" id="137" /><label for="137">![137](../slides/redacted.jpeg)</label>
-_137-139. Redacted slides._
+_138. Redacted slides._
 
 <span class="redacted">Redacted</span>
 > What information resources do we have available for people? How do we want them to contact us? Do we have any security-related Slack channels, etc?
@@ -26,7 +26,7 @@ _137-139. Redacted slides._
 ### Llama
 
 <input type="checkbox" id="140" /><label for="140">![140](../slides/for_everyone/for_everyone.140.jpeg)</label>
-_140. Llama._
+_139. Llama._
 
 And for all of you waiting for the animal to go with the color from the start, it's Llama. So you'll be getting a feedback survey in a few moments, just enter the color from the start, and this animal, and that will "prove" that you attended the security training for this year.
 
@@ -37,7 +37,7 @@ You'll also have a chance to provide feedback on the training, which will shape 
 ### Questions?
 
 <input type="checkbox" id="141" /><label for="141">![141](../slides/for_everyone/for_everyone.141.jpeg)</label>
-_141. Questions?_
+_140. Questions?_
 
 So with that, I'll open it up to questions. Thanks very much!
 
@@ -48,12 +48,8 @@ So with that, I'll open it up to questions. Thanks very much!
 ### Image Credits
 
 <input type="checkbox" id="142" /><label for="142">![142](../slides/for_everyone/for_everyone.142.jpeg)</label>
-_142. Image credits._
+_141. Image credits._
 
 > Here are the credits for all the images used throughout this training material.
 
 ---
-
-*[SRE]: Site Reliability Engineering
-*[NDA]: Non-Disclosure Agreement
-*[ISP]: Internet Service Provider

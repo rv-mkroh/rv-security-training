@@ -17,7 +17,7 @@ The main topics covered in this training are,
 
 ### Introduction
 
-![001](../slides/for_everyone/for_everyone.001.jpeg)
+<input type="checkbox" id="001" /><label for="001">![001](../slides/for_everyone/for_everyone.001.jpeg)</label>
 _001. "Security Training for Everyone, March 2018"_
 
 It turns out that if you work with partners in the banking and health care industries that security is a thing. There are even rumors that security is vital to our existence as a company. No, really, I've heard that. And when you do security right that means security certifications and security certifications mean training and, well, that's where your day got changed.
@@ -44,7 +44,7 @@ Despite our best efforts, the security team can't have eyes everywhere. We rely 
 <input type="checkbox" id="003" /><label for="003">![003](../slides/for_everyone/for_everyone.003.jpeg)</label>
 _003. Testimonial for the training._
 
-If this is your first year at Red Ventures, then this training will be new to you. Actually, even if you've been here since the founding in 2000 this training will be new to you. However, moving forward, we'll be swinging around to this annually. Not the most thrilling prospect for many of you but we've really tried to make this as entertaining and enjoyable as possible, and it's my hope that you don't feel this is a waste of your time. The material I'm going to present should be useful no matter what skill level you already have. Whether you're just joining us as an intern, or are a seasoned security expert.
+If this is your first year at Red Ventures, then this training will be new to you. Actually, even if you've been here since the founding in 2000 this training will be new to you because we've never done it before. However, moving forward, we'll be swinging around to this annually. Not the most thrilling prospect for many of you but we've really tried to make this as entertaining and enjoyable as possible, and it's my hope that you don't feel this is a waste of your time. The material I'm going to present should be useful no matter what skill level you already have. Whether you're just joining us as an intern, or are a seasoned security expert.
 
 ---
 
@@ -55,7 +55,7 @@ _004. Classification ratings for these slides._
 
 Because this information is so valuable, we're going to produce a public version of the slides that you can share with family and friends. Each slide contains a classification level based on the information present in the slide. I'll be producing three versions of the training at the end, one of which will be a public version you can share however you like.
 
-Any slide with a green icon and the word "public" can be shared however you like. If it's orange and says "restricted", then it can only be shared with customers who have signed an NDA. Finally, if it's red and says "internal only", it's not to be shared with anyone outside of Red Ventures under any circumstances.
+Any slide with a green icon and the word "public" can be shared however you like. However, if it's red and says "internal only", it's not to be shared with anyone outside of Red Ventures under any circumstances.
 
 I've included real examples of ongoing attacks in some of the material, and we want to be sure we don't tip our hand to attackers that we're on to them.
 
@@ -75,13 +75,10 @@ If you're unsure where to look, it's down here in the bottom left. For example, 
 <input type="checkbox" id="006" /><label for="006">![006](../slides/redacted.jpeg)</label>
 _006. Security Team._
 
-Andre Mintz, Chief Information Security Officer
-
-Raghu Kotha, Director of Engineering
-
-Carla Sweeney, Director
-
-Jim Sabinske, Director
+- Andre Mintz, Chief Information Security Officer
+- Raghu Kotha, Director of Engineering
+- Carla Sweeney, Director
+- Jim Sabinske, Director
 
 ---
 
@@ -114,7 +111,7 @@ Of course, yes, I know this can be gamed. Yes, I know you can cheat. This seemed
 ### Question
 
 <input type="checkbox" id="009" /><label for="009">![009](../slides/for_everyone/for_everyone.009.jpeg)</label>
-_008. Bike locks._
+_009. Bike locks._
 
 Now a quick question to get things rolling. Let's say you're the healthy type, and you like to cycle around the city. You are somewhere around the streets of Charlotte, and need to secure your bike. You have two choices, you can just leave it on the street without any lock at all, or you can take the morning off work and use 100 locks instead. Which do you choose?
 
@@ -125,7 +122,7 @@ Hopefully, you've realized that both of these answers are absurd and aren't goin
 ### Security vs Convenience
 
 <input type="checkbox" id="010" /><label for="010">![010](../slides/for_everyone/for_everyone.010.jpeg)</label>
-_008. Security vs convenience._
+_010. Security vs convenience._
 
 
 The point I'm trying to make is that there's a trade-off between security and convenience, with two extreme ends of a spectrum. Too far one way, and we're not secure, too far the other, and we're secure but completely unusable. If you get a bunch of people in a room and ask them if they want to be secure, they'll say yes. But given the choice between being secure and having convenience, most folks opt for convenience.

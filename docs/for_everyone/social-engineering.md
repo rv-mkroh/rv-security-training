@@ -5,7 +5,8 @@ description: This is an open-source version of 'Security Training for Everyone',
 ---
 ### Social Engineering
 
-_<input type="checkbox" id="017" /><label for="017">![017](../slides/for_everyone/for_everyone.017.jpeg)</label>_
+<input type="checkbox" id="017" /><label for="017">![017](../slides/for_everyone/for_everyone.017.jpeg)</label>
+_017. Social Engineering._
 
 Social Engineering is our first topic of the day, and that stock image is quite possibly my favorite ever. Seriously, why wear a balaclava while on the phone? It makes no sense!
 
@@ -54,7 +55,7 @@ Another way to verify if someone works here is to check the [Employee Search](ht
 
 ### ~~Fishing~~ Phishing
 
-_<input type="checkbox" id="022" /><label for="022">![022](../slides/for_everyone/for_everyone.022.jpeg)</label>_
+<input type="checkbox" id="022" /><label for="022">![022](../slides/for_everyone/for_everyone.022.jpeg)</label>_
 _022. ~~Fishing~~ Phishing._
 
 I'm going to focus on one particular type of social engineering attack that we get exposed to, phishing (with a P-H), and again, this is another one of my favorite stock images. The term comes from "fishing for information", and generally involves receiving an email designed to trick you into giving up information. As we get larger as a company, we become more of a target for these types of attacks.
@@ -177,8 +178,8 @@ If you do accidentally click a link in a phishing email, please let us know imme
 
 ### More Phishing Examples
 
-<input type="checkbox" id="030" /><label for="030">![030](../slides/redacted.jpeg)</label>
-_032-036. Redacted slides._
+<input type="checkbox" id="032" /><label for="032">![032](../slides/redacted.jpeg)</label>
+_032. Redacted slides._
 
 <span class="redacted">Redacted</span>
 > A series of slides have been redacted here. They gave examples of more sophisticated phishing attacks that have been waged against Red Ventures employees, and the indicators we used to detect them. We are not including them in the public version to avoid tipping our hand that we detected them.
@@ -187,8 +188,8 @@ _032-036. Redacted slides._
 
 ### Spear Phishing
 
-<input type="checkbox" id="037" /><label for="037">![037](../slides/for_everyone/for_everyone.037.jpeg)</label>
-_037. Spear phishing._
+<input type="checkbox" id="033" /><label for="033">![033](../slides/for_everyone/for_everyone.037.jpeg)</label>
+_033. Spear phishing._
 
 These much more targeted attacks are called "[Spear Phishing](https://en.wikipedia.org/wiki/Phishing#Spear_phishing)". An attacker spent a lot of time learning about our internal org structure and crafting a legitimate looking email in order to try and get lots of money from us. These are the types of attacks we care the most about protecting against. Ric recently spoke about an email he got that looked like it was a reply to him from our CFO and the only thing that tipped him off that it was a fake was a subtle difference in the way the "original" email was signed compared with how Ric normally signs. You really have to be on your game with these hacks!
 
@@ -196,8 +197,8 @@ These much more targeted attacks are called "[Spear Phishing](https://en.wikiped
 
 ### Phishing Archive
 
-<input type="checkbox" id="038" /><label for="038">![038](../slides/redacted.jpeg)</label>
-_038. Redacted slide._
+<input type="checkbox" id="034" /><label for="034">![034](../slides/redacted.jpeg)</label>
+_034. Redacted slide._
 
 <span class="redacted">Redacted</span>
 > This redacted slide showed an image of our internal "Phishing Archive" where we document all of the phishing attacks against us that we've detected, what the indicators were, and how we were able to detect them (whether automated, or via employee report). We've chosen not to share this slide, again, to avoid tipping our hand on some types of attacks.
@@ -207,7 +208,7 @@ _038. Redacted slide._
 ### Protecting Yourself
 
 <input type="checkbox" id="039" /><label for="039">![039](../slides/for_everyone/for_everyone.039.jpeg)</label>
-_039. Protecting yourself._
+_035. Protecting yourself._
 
 So how do we protect ourselves from this type of attack? Unfortunately there's no golden rule I can give you. It's up to us all to remain vigilant and watch for the signs of suspicious emails. Some things to take care with, the "from" address of email can easily be spoofed. There are technologies that can help to prevent this, but they're not implemented everywhere. So while a misspelled domain is a strong indicator of phishing, a real domain isn't a 100% indicator that it's genuine.
 
@@ -224,7 +225,7 @@ Finally, remember to **never click on any links in a mail you think may be phish
 ### Reporting Phishing
 
 <input type="checkbox" id="040" /><label for="040">![040](../slides/for_everyone/for_everyone.040.jpeg)</label>
-_040. Reporting phishing._
+_036. Reporting phishing._
 
 As of January 2018, if you do need to report phishing to us, use the following process. Within the email message, a “Red Alert” link will be displayed. Ironically, this is blue. Once you get past the cognitive dissonance of this, simply click Report Phishing.
 
@@ -233,7 +234,7 @@ As of January 2018, if you do need to report phishing to us, use the following p
 ### Reporting Phishing (2)
 
 <input type="checkbox" id="041" /><label for="041">![041](../slides/for_everyone/for_everyone.041.jpeg)</label>
-_041. Reporting phishing._
+_037. Reporting phishing._
 
 The email will be removed from your inbox and sent to the security team for review. The security team will notify the end user of the outcome within 72 hours, returning non-suspicious messages to the recipient.
 
@@ -244,7 +245,7 @@ If the phishing message is part of a security-driven phishing test, you will rec
 ### Reporting Spam
 
 <input type="checkbox" id="042" /><label for="042">![042](../slides/for_everyone/for_everyone.042.jpeg)</label>
-_042. Reporting spam._
+_038. Reporting spam._
 
 While we're on the topic of reporting phishing, just a quick note that you can do the same with spam. Spam is considered unsolicited bulk email or any email that is unwanted or unrequested by the recipient. These are mostly commercial advertising but may include chain letters, political mailings, etc.
 
@@ -255,7 +256,7 @@ You can report Spam in the MimeCast tab of Outlook if you are on a PC. The Spam 
 ### You Are Our Greatest Asset!
 
 <input type="checkbox" id="044" /><label for="044">![044](../slides/for_everyone/for_everyone.044.jpeg)</label>
-_044. You are our greatest asset!_
+_039. You are our greatest asset!_
 
 We don't read your emails, and automatic filtering only gets us so far. It's up to all of you to be able to spot suspicious emails and send them to us. The good news is that you're already great at this! We managed to preemptively block several phishing attacks last year thanks to quick employee reports. Most were deleted from your inbox before you even read them. Don’t assume someone else has already sent us the example, do it anyway. We’d rather have 300 duplicate reports than no report at all.
 
@@ -264,7 +265,7 @@ We don't read your emails, and automatic filtering only gets us so far. It's up 
 ### Not Just Phishing
 
 <input type="checkbox" id="045" /><label for="045">![045](../slides/for_everyone/for_everyone.045.jpeg)</label>
-_045. Not just phishing. [Reference](https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms)_
+_040. Not just phishing. [Reference](https://en.wikipedia.org/wiki/Social_engineering_(security)#Techniques_and_terms)_
 
 Social engineering isn't just about phishing, even though that's what I focused on here. There are many more types of social engineering attacks we can face.
 
@@ -283,7 +284,7 @@ One final example of social engineering would be leaving a USB drive lying on th
 ### Ask us!
 
 <input type="checkbox" id="046" /><label for="046">![046](../slides/for_everyone/for_everyone.046.jpeg)</label>
-_046. Ask us._
+_041. Ask us._
 
 As with anything security related, if you're not sure if you've encountered a social engineering attack, or if you're curious to know more, just ask us!
 

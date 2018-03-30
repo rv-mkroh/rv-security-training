@@ -6,8 +6,8 @@ description: This is an open-source version of 'Security Training for Everyone',
 
 ### Physical Security
 
-_<input type="checkbox" id="107" /><label for="107">![107](../slides/for_everyone/for_everyone.107.jpeg)</label>_
-_107. Physical Security._
+_<input type="checkbox" id="107" /><label for="107">![107](../slides/for_everyone/for_everyone.107.jpeg)</label>
+_101. Physical Security._
 
 These next two sections will go much quicker, I promise. We're now going to talk about physical security. I don't mean bouncers.
 
@@ -16,7 +16,7 @@ These next two sections will go much quicker, I promise. We're now going to talk
 ### What is physical security?
 
 <input type="checkbox" id="108" /><label for="108">![108](../slides/for_everyone/for_everyone.108.jpeg)</label>
-_108. What is physical security?_
+_102. What is physical security?_
 
 I mean security that's designed to protect our offices, personnel, and equipment.
 
@@ -25,7 +25,7 @@ I mean security that's designed to protect our offices, personnel, and equipment
 ### Basic Guidelines
 
 <input type="checkbox" id="109" /><label for="109">![109](../slides/for_everyone/for_everyone.109.jpeg)</label>
-_109. Basic Guidelines._
+_103. Basic Guidelines._
 
 We're growing really quickly now, and it's very easy to lose track of who works here and who doesn't at any given time. Gone are the days where we could all fit into a single meeting room.
 
@@ -38,7 +38,7 @@ If their answers don't satisfy you, and you think they're sketchy, alert the sec
 ### Ask Questions
 
 <input type="checkbox" id="110" /><label for="110">![110](../slides/for_everyone/for_everyone.110.jpeg)</label>
-_110. Ask Questions._
+_104. Ask Questions._
 
 If you see something suspicious, ask questions. But be polite, don't shove someone up against the wall shouting "Who do you work for!!?!?!", this isn't a movie. If someone is wandering around looking lost, ask them where they're heading. It's likely just a new employee.
 
@@ -49,7 +49,7 @@ If someone you don't recognize is sitting at your friend's desk using their lapt
 ### Lock Your Computers!
 
 <input type="checkbox" id="111" /><label for="111">![111](../slides/for_everyone/for_everyone.111.jpeg)</label>
-_111. Lock Your Computers!._
+_105. Lock Your Computers!._
 
 Please lock your computers when you're not with them. It literally only takes a few seconds for someone to access your machine and do some really nasty things using your login credentials.
 
@@ -62,7 +62,7 @@ Also we used to do that, and it just makes people feel bad and doesn't give you 
 ### Piggybacking
 
 <input type="checkbox" id="112" /><label for="112">![112](../slides/for_everyone/for_everyone.112.jpeg)</label>
-_112. Piggybacking._
+_106. Piggybacking._
 
 Beware of "Piggybacking", this is where someone else follows you through a secure door on your keycard swipe. A common social engineering trick is to just act like you belong and follow people through a door they've opened for you. Usually carrying something heavy with both hands to explain why they can't swipe their own keycard.
 
@@ -75,7 +75,7 @@ Likewise, if you're following someone through a door and they ask you to tap you
 ### Building Security
 
 <input type="checkbox" id="114" /><label for="114">![114](../slides/for_everyone/for_everyone.114.jpeg)</label>
-_114. Building Security._
+_107. Building Security._
 
 Once you've used your keycard to unlock a door, please don't prop it open. The doors are locked for a reason, and propping them open kind of defeats that. Listen for the sound of the door closing behind you.
 
@@ -86,7 +86,7 @@ Make sure all your visitors sign in at the front desk, and have a name badge. No
 ### Laptop Stolen?!
 
 <input type="checkbox" id="115" /><label for="115">![115](../slides/for_everyone/for_everyone.115.jpeg)</label>
-_115. Laptop stolen?!._
+_108. Laptop stolen?!._
 
 So you're at a bar after work, you look down on the floor and see that your backpack has been stolen, and your Red Ventures issued laptop was in there. It was likely stolen by someone wearing a balaclava, since we know that's what all criminals wear based on my stock image searches.
 
@@ -97,7 +97,7 @@ What do you do?
 ### Panic?
 
 <input type="checkbox" id="116" /><label for="116">![116](../slides/for_everyone/for_everyone.116.jpeg)</label>
-_116. Panic?._
+_109. Panic?._
 
 Your first instinct is to probably panic. That's OK, it's a natural reaction.
 
@@ -106,7 +106,7 @@ Your first instinct is to probably panic. That's OK, it's a natural reaction.
 ### Don't Panic
 
 <input type="checkbox" id="117" /><label for="117">![117](../slides/for_everyone/for_everyone.117.jpeg)</label>
-_117. Don't Panic._
+_110. Don't Panic._
 
 But don't panic. Things get stolen, it's just the world we live in. You're not going to get fired, you're not going to get into trouble.
 
@@ -117,12 +117,9 @@ _(Unless you stole the laptop yourself, in which case, yeah.. you'll probably ge
 ### Page Security
 
 <input type="checkbox" id="118" /><label for="118">![118](../slides/for_everyone/for_everyone.118.jpeg)</label>
-_118. Page us!._
+_111. Page us!._
 
-Notify security or the help desk at any time if you have lost or had stolen, any devices that access Red Ventures information. Whether it's your Red Ventures issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued.
+Notify security or the help desk at any time if you have lost or had stolen, any devices that access Red Ventures information. Whether it's your Red Ventures issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued. After you've filed a police report, email us at help@redventures.com. Of course, you might need to borrow someone's laptop to do that ...
 
-This is a high-urgency situation. So if you spot your stolen device at 2am, you notify us at 2am. Don't wait until business hours. We always have someone on-call who will respond to these pages and take the necessary action.
-
-If you don't know how to page us via Red Ventures, please come and talk to us as soon as you can so we can show you. Hopefully you've all at least used our product once, but some of you are pretty new and probably haven't had the chance yet, that's OK.
 
 ---

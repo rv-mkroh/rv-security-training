@@ -6,7 +6,7 @@ description: This is an open-source version of 'Security Training for Everyone',
 
 ### Personally Identifiable Information (PII)
 
-_<input type="checkbox" id="119" /><label for="119">![119](../slides/for_everyone/for_everyone.119.jpeg)</label>_
+_<input type="checkbox" id="119" /><label for="119">![119](../slides/for_everyone/for_everyone.119.jpeg)</label>
 _119. Personally Identifiable Information (PII)._
 
 The next topic is Personally Identifiable Information, usually abbreviated to PII, or sometimes just PI.
@@ -92,7 +92,7 @@ This is also why it's important for you to let us know if your personal device i
 ### Red Ventures Devices
 
 <input type="checkbox" id="127" /><label for="127">![127](../slides/for_everyone/for_everyone.127.jpeg)</label>
-_125. No customer data on Red Ventures devices._
+_126. No customer data on Red Ventures devices._
 
 Likewise, you should never store customer data, even on Red Ventures devices! Customer data is never to leave our production environment under any circumstances.
 
@@ -105,7 +105,7 @@ We have analytics mechanisms available to you in our production environment to r
 ### Be Mindful
 
 <input type="checkbox" id="128" /><label for="128">![128](../slides/for_everyone/for_everyone.128.jpeg)</label>
-_128. Be Mindful._
+_127. Be Mindful._
 
 The takeaway from all of this is that you should be mindful of how you handle data. Treat customer data as you would want your own data to be treated. Like I said earlier, customer data is our most valuable asset, and customers are trusting us with it. Breaching that trust is unacceptable, and so we all need to make sure we follow the rules.
 

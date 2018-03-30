@@ -48,6 +48,10 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+input[type="checkbox"] {
+    display: none;
+}
+
 /* Prevent re-drawing of the backdrop when scrolling with mousewheel. Would cause weird artifacts
 in Chrome. */
 .backdrop {
