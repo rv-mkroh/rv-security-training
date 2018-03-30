@@ -7,3 +7,6 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# mkdocs things to ignore
+site/
