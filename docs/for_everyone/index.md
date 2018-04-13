@@ -44,7 +44,7 @@ Despite our best efforts, the security team can't have eyes everywhere. We rely 
 <input type="checkbox" id="003" /><label for="003">![003](../slides/for_everyone/for_everyone.003.jpeg)</label>
 _003. Testimonial for the training._
 
-If this is your first year at Red Ventures, then this training will be new to you. Actually, even if you've been here since the founding in 2000 this training will be new to you because we've never done it before. However, moving forward, we'll be swinging around to this annually. Not the most thrilling prospect for many of you but we've really tried to make this as entertaining and enjoyable as possible, and it's my hope that you don't feel this is a waste of your time. The material I'm going to present should be useful no matter what skill level you already have. Whether you're just joining us as an intern, or are a seasoned security expert.
+If this is your first year at Red Ventures, then this training will be new to you. Actually, even if you've been here since the founding in 2000 this training will be new to you because we've never done it before. However, moving forward, we'll be swinging around to this annually. Not the most thrilling prospect for many of you but when you think about it, it is ever so much better than getting hacked and tanking the company. The material I'm going to present should be also be useful to you here at work but also in your personal life.
 
 ---
 
@@ -53,7 +53,7 @@ If this is your first year at Red Ventures, then this training will be new to yo
 <input type="checkbox" id="004" /><label for="004">![004](../slides/for_everyone/for_everyone.004.jpeg)</label>
 _004. Classification ratings for these slides._
 
-Because this information is so valuable, we're going to produce a public version of the slides that you can share with family and friends. Each slide contains a classification level based on the information present in the slide. I'll be producing three versions of the training at the end, one of which will be a public version you can share however you like.
+Because this information is so valuable, we're going to produce a public version of the slides that you can share with family and friends. Each slide contains a classification level based on the information present in the slide. I'll be producing two versions of the training at the end, one of which will be a public version you can share however you like.
 
 Any slide with a green icon and the word "public" can be shared however you like. However, if it's red and says "internal only", it's not to be shared with anyone outside of Red Ventures under any circumstances.
 
@@ -74,6 +74,8 @@ If you're unsure where to look, it's down here in the bottom left. For example, 
 
 <input type="checkbox" id="006" /><label for="006">![006](../slides/redacted.jpeg)</label>
 _006. Security Team._
+
+We have a great security team at RV. They are a small team, but they are responsible for keeping our business secure so they are often tough to get a meeting with. If you have security-related questions or concerns simply send an email to securityops@redventures.com. That distro will send to the group and they can identify the right person to respond to you.
 
 - Andre Mintz, Chief Information Security Officer
 - Raghu Kotha, Director of Engineering

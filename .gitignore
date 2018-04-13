@@ -10,3 +10,4 @@ Thumbs.db
 
 # mkdocs things to ignore
 site/
+site.zip
