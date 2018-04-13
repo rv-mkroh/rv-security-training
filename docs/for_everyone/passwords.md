@@ -166,9 +166,9 @@ Let's try another one.
 ### rich
 
 <input type="checkbox" id="062" /><label for="062">![062](../slides/for_everyone/for_everyone.062.jpeg)</label>
-_057. rich._
+_057. mark._
 
-Let's look at the user "rich". Their password hint is "fav person". Well, that's not really much help to us. We don't know who "rich" is, and we have no idea who their favorite person is. In fact, that user probably thinks they're pretty safe, since only close friends would know the necessary information. There's no way a random attacker looking at the database could figure it out.
+Let's look at the user "mark". Their password hint is "fav person". Well, that's not really much help to us. We don't know who "mark" is, and we have no idea who their favorite person is. In fact, that user probably thinks they're pretty safe, since only close friends would know the necessary information. There's no way a random attacker looking at the database could figure it out.
 
 Unfortunately for them, another user has picked the same password.
 
@@ -188,7 +188,7 @@ The user "james" has picked the same password, and has a much more obvious passw
 <input type="checkbox" id="064" /><label for="064">![064](../slides/for_everyone/for_everyone.064.jpeg)</label>
 _059. queen._
 
-So even though "rich" thought they were safe, because of the way this website is storing user's password information, we could use the fact someone else has the same password in order to break theirs. Remember, just because you think you haven't provided much information, someone else may have. I've seen answers to security questions that include the user's password before.
+So even though "mark" thought he was safe, because of the way this website is storing user's password information, we could use the fact someone else has the same password in order to break his. Remember, just because you think you haven't provided much information, someone else may have. I've seen answers to security questions that include the user's password before.
 
 Anyway, we've now broken 4 of these 7 users' passwords in less than a few minutes, and we've still yet to write any code or look like cool hackers from the movies.
 
@@ -422,7 +422,7 @@ And finally, we will _never_ ask you for your password, under any circumstances.
 <input type="checkbox" id="084" /><label for="084">![084](../slides/for_everyone/for_everyone.084.jpeg)</label>
 _079. "Treat your password like your toothbrush. Don't let anybody else use it, and get a new one every six months."_
 
-Here's a quote from Clifford Stoll on passwords which I thought was funny. Although I advise you replace your toothbrush a bit more often than six months.
+Here's a quote from Clifford Stoll on passwords which I thought was funny. Although I advise you replace your toothbrush a bit more often than six months. And honestly, rotating your passwords quarterly is better than every six months.
 
 Ok, so now we know what passwords should look like, let's look at a few examples of bad and good passwords.
 
@@ -487,7 +487,7 @@ _084. Use a password manager. [Reference](https://1password.com/)_
 
 You need to use a tool called a "Password Manager". There are lots out there, and you've probably heard of a lot of them. "[LastPass](https://www.lastpass.com/)", "[1Password](https://1password.com/)", "[KeePass](https://keepass.info/)", etc. They each have their own pros and cons depending on how you prefer to operate. Most have browser plugins to automatically enter your passwords for you (although there have been some security issues there in the past). But they're all designed to do pretty much one thing. Store a lookup of all your usernames and passwords, protected by a single "master password", which is the one password (hey, that's the name of one of the tools) you need to remember. The idea is that it'll be the last password (hey, that's the name of another one!) you need to remember.
 
-We use LastPass here at Red Ventures, so if you can't decide on a tool, then you may as well go with that one. One quick thing to note, make sure to use a different tool or vault for your personal vs work passwords. We revoke access to the Red Ventures ones when you leave, so you don't want all your personal ones to disappear too!
+We use LastPass here at Red Ventures, so this is what you should be using for business passwords. If you don't have access to LastPass yet, please make a request to the help desk and they'll help you out. One quick thing to note, make sure to use a different tool or vault for your personal vs work passwords. We revoke access to the Red Ventures ones when you leave, so you don't want all your personal ones to disappear too!
 
 If there's only one thing you take away from today's training, please make it this: Using a password manager is the single most effective thing you can do to enhance your security online. Actually, maybe two-factor authentication too, we'll get to that later though.
 

@@ -31,7 +31,7 @@ We have some basic guidelines when it comes to personal information at Red Ventu
 
 Don't look at information you shouldn't. Let's say you come across a list of employees and their SSN's. That's pretty bad, and is something we want to know about. Don't just scroll through the data and keep it to yourself. Let us know immediately so we can do something about it. Just like with stolen devices, you won't get into trouble for accessing something you shouldn't have access to if it was an honest mistake. But if you look at that information and don't tell anyone, then later we find out you accessed it, that's going to cause problems.
 
-All company devices are encrypted by default when you get them. Don't turn this off. We give you administrative access to your laptops because we want you to have the ability to do whatever you need with them to get your job done. Turning off encryption is not one of them.
+All company devices are encrypted by default when you get them. If you are using a mac, don't turn this off. We give you administrative access to your laptops because we want you to have the ability to do whatever you need with them to get your job done. Turning off encryption is not one of them. If you are using a PC, no worries. We have those locked down pretty tight.
 
 Finally, we need to be careful with company data. What is company data you might ask.
 
@@ -98,7 +98,7 @@ Likewise, you should never store customer data, even on Red Ventures devices! Cu
 
 That means you do not download parts of our production database to your Red Ventures laptops, you do not transfer real production data to our staging or sandbox environments to run some tests, etc. Our production environment has strict security controls and audit logging in place. If you transfer data away from those environments, we lose those abilities.
 
-We have analytics mechanisms available to you in our production environment to run these types of things. If you need something different or special set up for a specific project, please let us know and we're more than happy to guide and help you set that up.
+We have analytics mechanisms available to you in our production environment to run these types of things. If you need something different or special set up for a specific project, please let us know and we're more than happy to guide and help you set that up. Ownership of these mechanisms can vary so just throw a message in the #developers Slack channel and someone can guide you to the right resource.
 
 ---
 

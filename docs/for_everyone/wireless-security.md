@@ -20,7 +20,7 @@ The beauty of wireless networks is that they are so wonderfully convenient. In a
 <input type="checkbox" id="021" /><label for="021">![021](../slides/redacted.jpeg)</label>
 _113. Redacted slide._
 
-There are several ways to protect yourself when using wifi. First, try to only use secure wireless access points. Secure in this usage simply means that you have to log in in order to use the network and that traffic flowing across the network is encrypted. Now, one thing to understand it that there are several different ways to secure a wireless hotspot and they do not offer the same levels of protection. The two primary types of encryption are Wi-Fi Protected Access (WPA) and Wired Equivalent Privacy (WEP). If you are setting up a home network, be sure to select WPA2 if it is available because it offers the strongest level of protection. WEP is an older technology and should be avoided when possible.
+There are several ways to protect yourself when using wifi. First, try to only use secure wireless access points. (When you are at work, ONLY use secure wireless access points!) Secure in this usage simply means that you have to log in in order to use the network and that traffic flowing across the network is encrypted. Now, one thing to understand it that there are several different ways to secure a wireless hotspot and they do not offer the same levels of protection. The two primary types of encryption are Wi-Fi Protected Access (WPA) and Wired Equivalent Privacy (WEP). If you are setting up a home network, be sure to select WPA2 if it is available because it offers the strongest level of protection. WEP is an older technology and should be avoided when possible.
 
 ---
 
@@ -29,7 +29,7 @@ There are several ways to protect yourself when using wifi. First, try to only u
 <input type="checkbox" id="021" /><label for="021">![021](../slides/redacted.jpeg)</label>
 _114. Redacted slide._
 
-When you are on a public network, you should take further steps to protect yourself - especially when you are on open, unencrypted wifi. First, NEVER send personal information across the Internet. Open wifi allows hackers to easily collect the information going back and forth and your information will be compromised. If you really need to do online shopping or log in to your bank account, make absolutely sure that you are on a secure wireless network. If you have to use an unsecured network, make sure you use their secure website.
+When you are on a public network, you should take further steps to protect yourself - especially when you are on open, unencrypted wifi. First, NEVER send personal information across the Internet. Open wifi allows hackers to easily collect the information going back and forth and your information will be compromised. If you really need to do work in a coffee shop or log in from the airport, make absolutely sure that you are on a secure wireless network. If you have to use an unsecured network, make sure you are using a secure website.
 
 ---
 

@@ -40,9 +40,9 @@ If their answers don't satisfy you, and you think they're sketchy, alert the sec
 <input type="checkbox" id="110" /><label for="110">![110](../slides/for_everyone/for_everyone.110.jpeg)</label>
 _104. Ask Questions._
 
-If you see something suspicious, ask questions. But be polite, don't shove someone up against the wall shouting "Who do you work for!!?!?!", this isn't a movie. If someone is wandering around looking lost, ask them where they're heading. It's likely just a new employee.
+If you see something, say something! But be polite, don't shove someone up against the wall shouting "Who do you work for!!?!?!", this isn't a movie. If someone is wandering around looking lost, ask them where they're heading. It's likely just a new employee. And if you are uncomfortable speaking to them directly, at the very least let the security guards know what's going on.
 
-If someone you don't recognize is sitting at your friend's desk using their laptop though, that's something you probably want to let the security team know about pretty quickly. Speaking of which...
+For example, if someone you don't recognize is sitting at your friend's desk using their laptop, that's something you probably want to let the security team know about pretty quickly. Speaking of which...
 
 ---
 
@@ -92,6 +92,10 @@ So you're at a bar after work, you look down on the floor and see that your back
 
 What do you do?
 
+Well, first, let's back up and talk about some common sense guidelines for protecting your laptop off-site. It should never be left unattended in plain view in your car. Lock it in the trunk if you need to leave it in there. And maybe avoid taking it into a bar or other public place where you may be distracted. And when you travel, please don't pack it in your checked luggage. That's a bad idea for a number of reasons!
+
+But let's say the worst happens even though you've taken these precautions. What do you do?
+
 ---
 
 ### Panic?
@@ -119,7 +123,7 @@ _(Unless you stole the laptop yourself, in which case, yeah.. you'll probably ge
 <input type="checkbox" id="118" /><label for="118">![118](../slides/for_everyone/for_everyone.118.jpeg)</label>
 _111. Page us!._
 
-Notify security or the help desk at any time if you have lost or had stolen, any devices that access Red Ventures information. Whether it's your Red Ventures issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued. After you've filed a police report, email us at help@redventures.com. Of course, you might need to borrow someone's laptop to do that ...
+Notify the help desk (help@redventures.com) at any time if you have lost or had stolen, any devices that access Red Ventures information. The help desk logs these incidents and has procedures to initiate the removal of the device from the network. Whether it's your Red Ventures issued laptop, or your personal phone which was logged into your GitHub account. Let us know immediately so we can lock it out from all our systems and get you a new device issued.
 
 
 ---

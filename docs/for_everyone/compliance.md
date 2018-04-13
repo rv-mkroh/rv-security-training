@@ -13,7 +13,7 @@ OK, we're on to our final topic. Compliance.
 
 > If you don't know what that background image is about, go and watch a cheesy 80's sci-fi movie called "[Flight of the Navigator](https://www.imdb.com/title/tt0091059/)".
 
-We have a variety of compliance restrictions that affect how we operate, so I want to spend a bit of time talking about each of them.
+We have a variety of compliance requirements that affect how we operate, so I want to spend a bit of time talking about each of them.
 
 ---
 
